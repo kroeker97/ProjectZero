@@ -1,6 +1,6 @@
 # ProjectZero
 
-### Server:
+## Server:
 Ein Webserver wird für die Backend Applikation benötigt.
 Der Server benötigt mindestens diese Anforderungen, da Laravel als Backend für das Projekt benutzt wird.
 Larvel ist ein PHP Framework, welches als eine RESTful API Lösung benutzt wird um die Client Anfragen zu verarbeiten und mit der Datenbank kommuniziert.
@@ -24,7 +24,7 @@ https://laravel.com/
 * Node
 * Git
 
-## Datenbank:
+### Datenbank:
 Die Datenbank kann auch in Laravel aufgebaut werden, dafür können Migrations verwedendet werden.
 
 >Migrations are like version control for your database, allowing your team to easily modify and share the application's database schema. Migrations are 
