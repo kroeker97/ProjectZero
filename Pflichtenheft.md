@@ -6,6 +6,7 @@
 Community-Plattform für Computerspiele
 
 ### Spiele-Bibliothek
+In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. Diese können dann aus der Spielebibliothek gestartet werden. Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel werden eine Beschreibung, eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen.
 ### Terminplaner
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann.
 ### Gruppen
