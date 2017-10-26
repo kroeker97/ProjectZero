@@ -55,4 +55,4 @@ Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt un
 * Shop
 * Blog
 
-**Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es in die Entwicklung kommt.**
+**Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es zur Entwicklung kommt.**
