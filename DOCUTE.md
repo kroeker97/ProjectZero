@@ -1,9 +1,3 @@
----
-title: "Docute und Markdown"
-author: "Steffen Dorsch"
-date: "26/10/2017"
----
-
 # docute: Dokumentationstool
 
 ## Über docute
