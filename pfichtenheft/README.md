@@ -6,7 +6,18 @@
 Community-Plattform für Computerspiele
 
 ### Spiele-Bibliothek
-In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. Diese können dann aus der Spielebibliothek gestartet werden. Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel werden eine Beschreibung, eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen.
+In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. 
+Diese können dann aus der Spielebibliothek gestartet werden. 
+Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung, 
+eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen angezeigt.
+### Bewertungsfunktion
+Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt. 
+Jeder Benutzer kann sie individuell ausfüllen, wenn er das dazugehörige Spiel besitzt, 
+aber jedes Spiel kann nur einmal pro Benutzer bewertet werden.
+Jeder Benutzer kann zu seiner Bewertung ein kleiner Text verfassen, 
+dort kann er schreiben was er gut und/oder schlecht an diesem Spiel findet und eine Bewertung in Sternen abgeben. 
+Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, der das Spiel bewertet hat. 
+![reviewweb](./images/Review_Web.png)
 ### Terminplaner
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann.
 ### Gruppen
@@ -19,8 +30,6 @@ Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen.
 Es gibt die Tabs "Kontakte" und "Gruppen". In dem Tab "Kontakte" werden die Kontakte des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.
-### Bewertungsfunktion
-Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt und kann von jedem Benutzer individuell ausgefüllt werden. Jeder Benutzer kann zu seiner Bewertung ein kleiner Text verfassen, dort kann er schreiben was er gut und/oder schlecht an diesem Spiel findet. Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, der das Spiel bewertet hat. 
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
 
