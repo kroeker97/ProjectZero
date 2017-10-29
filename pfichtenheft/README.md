@@ -10,6 +10,10 @@ Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwe
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
 Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen. 
 
+### Anmeldung
+Jede Person die sich erfolgreich registriert hat, kann sich anmelden. 
+Um sich anmelden zu können, muss eine korrekte Eingabe von Benutzername und Passwort tätigt werden.
+
 ### Spiele-Bibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. 
 Diese können dann aus der Spielebibliothek gestartet werden. 
