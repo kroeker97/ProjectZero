@@ -1,2 +1,0 @@
-Bewertungsfunktion
-Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt und kann von jedem Benutzer individuell ausgefüllt werden. Jeder Benutzer kann zu seiner Bewertung ein kleiner Text verfassen, dort kann er schreiben was er gut und/oder schlecht an diesem Spiel findet. Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, der das Spiel bewertet hat. 
