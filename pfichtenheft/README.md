@@ -16,10 +16,12 @@ Jeder Benutzer kann sie individuell ausfüllen, wenn er das dazugehörige Spiel be
 aber jedes Spiel kann nur einmal pro Benutzer bewertet werden.
 Jeder Benutzer kann zu seiner Bewertung ein kleiner Text verfassen, 
 dort kann er schreiben was er gut und/oder schlecht an diesem Spiel findet und eine Bewertung in Sternen abgeben. 
-Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, der das Spiel bewertet hat.  
-![reviewweb](./images/Review_Web.png)  
-![reviewdesktop](./images/Review_Desktop.png)  
-![reviewmobile](./images/Review_Mobile.png)
+Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, 
+der das Spiel bewertet hat und können diese Bewertungen mit einem Daumen hoch oder runter bewerten.  
+<img src="./images/Review_Web.png" width="450">
+<img src="./images/Review_Desktop.png" width="450">
+<img src="./images/Review_Mobile.png" width="450">
+
 ### Terminplaner
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann.
 ### Gruppen
