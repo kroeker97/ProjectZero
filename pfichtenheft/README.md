@@ -11,7 +11,8 @@ fehlt noch.
 ### Registration
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung. 
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
-Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen. 
+Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.  
+<img src="./images/Registration_Web.png" width="300"> <img src="./images/Registration_Desktop.png" width="320"> <img src="./images/Registration_Mobile.png" width="180">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden. 
