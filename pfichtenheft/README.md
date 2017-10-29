@@ -31,7 +31,7 @@ Jeder Benutzer kann zu seiner Bewertung ein kleiner Text verfassen,
 dort kann er schreiben was er gut und/oder schlecht an diesem Spiel findet und eine Bewertung in Sternen abgeben. 
 Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, 
 der das Spiel bewertet hat und können diese Bewertungen mit einem Daumen hoch oder runter bewerten.  
-<img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
+<img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="350"> <img src="./images/Review_Mobile.png" width="160">
 
 ### Gruppen
 ### Chaträume
