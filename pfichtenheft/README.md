@@ -5,6 +5,9 @@
 
 Community-Plattform für Computerspiele
 
+### Navigationsleiste
+fehlt noch.
+
 ### Registration
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung. 
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
@@ -12,7 +15,8 @@ Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden. 
-Um sich anmelden zu können, muss eine korrekte Eingabe von Benutzername und Passwort tätigt werden.
+Um sich anmelden zu können, muss eine korrekte Eingabe von Benutzername und Passwort tätigt werden.  
+<img src="./images/Login_Web.png" width="300"> <img src="./images/Login_Desktop.png" width="336"> <img src="./images/Login_Mobile.png" width="230">
 
 ### Spiele-Bibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. 
