@@ -14,7 +14,7 @@ Ihr Inhalt ist wie folgt:
 * Spiele-Bibliothek
 * Gruppen/Freunde (Community)
 * Registrierung und Anmeldung oder Abmeldung  
-<img src="./images/Navigation.png" width="360"><img src="./images/Navigation_Mobile.png" width="360">
+<img src="./images/Navigation.png" width="400"><img src="./images/Navigation_Mobile.png" width="400">
 
 
 ### Registrierung
