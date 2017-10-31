@@ -13,8 +13,8 @@ Ihr Inhalt ist wie folgt:
 * Terminplaner
 * Spiele-Bibliothek
 * Gruppen/Freunde (Community)
-* Registrierung und Anmeldung oder Abmeldung
-<img src="./images/Navigation_Web.png" width="340"> <img src="./images/Navigation_Desktop.png" width="320"> <img src="./images/Navigation_Mobile.png" width="180">
+* Registrierung und Anmeldung oder Abmeldung  
+<img src="./images/Navigation_Web.png" width="340"> <img src="./images/Navigation_Desktop.png" width="320"> <img src="./images/Navigation_Mobile.png" width="250">
 
 
 ### Registrierung
