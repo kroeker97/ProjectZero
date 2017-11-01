@@ -3,10 +3,10 @@
 
 ### Allgemeine Beschreibung des Projekts
 
-Community-Plattform für Computerspiele
+Community-Plattform fÃ¼r Computerspiele
 
 ### Navigationsleiste
-Die Navigationsleiste ist allem übergeordnet, also sie wird über jedem Objekt dargestellt.
+Die Navigationsleiste ist allem Ã¼bergeordnet, also sie wird Ã¼ber jedem Objekt dargestellt.
 Sie hat die wichtigsten Verweise in sich, ein Verweis auf die Anmeldung, Registration oder Abmeldung.
 Ihr Inhalt ist wie folgt:
 * Logo der Plattform (Verweis auf die Startseite)
@@ -18,49 +18,49 @@ Ihr Inhalt ist wie folgt:
 
 
 ### Registrierung
-Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung. 
-Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
+Jede Person kann sich registrieren, egal ob Ã¼ber die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung. 
+FÃ¼r die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
 Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.  
 <img src="./images/Registration_Web.png" width="340"> <img src="./images/Registration_Desktop.png" width="320"> <img src="./images/Registration_Mobile.png" width="180">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden. 
-Um sich anmelden zu können, muss eine korrekte Eingabe von Benutzername und Passwort tätigt werden.  
+Um sich anmelden zu kÃ¶nnen, muss eine korrekte Eingabe von Benutzername und Passwort tÃ¤tigt werden.  
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
 ### Spiele-Bibliothek
-In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. 
-Diese können dann aus der Spielebibliothek gestartet werden. 
-Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung, 
+In der Spielebibliothek werden alle verfÃ¼gbaren (gekauften) Spiele angezeigt. 
+Diese kÃ¶nnen dann aus der Spielebibliothek gestartet werden. 
+Spiele kÃ¶nnen Ã¼ber ein MenÃ¼ der Bibliothek hinzugefÃ¼gt werden. FÃ¼r jedes Spiel wird eine Beschreibung, 
 eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen angezeigt.
 ### Bewertungsfunktion
 Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt. 
-Jeder Benutzer kann sie individuell ausfüllen, wenn er das dazugehörige Spiel besitzt, 
+Jeder Benutzer kann sie individuell ausfÃ¼llen, wenn er das dazugehÃ¶rige Spiel besitzt, 
 aber jedes Spiel kann nur einmal pro Benutzer bewertet werden.
 Jeder Benutzer kann zu seiner Bewertung ein kleiner Text verfassen, 
 dort kann er schreiben was er gut und/oder schlecht an diesem Spiel findet und eine Bewertung in Sternen abgeben. 
 Andere Benutzer sehen bei jedem Spiel, die Bewertung von jedem Benutzer, 
-der das Spiel bewertet hat und können diese Bewertungen mit einem Daumen hoch oder runter bewerten.  
+der das Spiel bewertet hat und kÃ¶nnen diese Bewertungen mit einem Daumen hoch oder runter bewerten.  
 <img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
 
 ### Gruppen
-### Chaträume
-Es wird zwischen Privatchats, Gruppenchats und öffentliche Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann mit einem ":" getrennt die Textnachricht angezeigt.
-Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen.
-Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden. 
-Über die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
+### ChatrÃ¤ume
+Es wird zwischen Privatchats, Gruppenchats und Ã¶ffentliche ChatrÃ¤umen unterschieden. In den ChatrÃ¤umen stehen Emojis zur VerfÃ¼gung. Hyperlinks mÃ¼ssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann mit einem ":" getrennt die Textnachricht angezeigt.
+Man kann Privatchats Ã¼ber einen Doppelklick auf den jeweiligen Kontakt Ã¶ffnen.
+Ã–ffentliche ChatrÃ¤ume kÃ¶nnen erstellt und mit PasswÃ¶rtern versehen werden. Jeder Ã¶ffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur VerfÃ¼gung. Ãœber diese Liste kÃ¶nnen Benutzer zu den Kontakten hinzugefÃ¼gt werden. Benutzer kÃ¶nnen Stumm geschaltet werden. 
+Ãœber die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
 ### Kontaktliste
-Es gibt die Tabs "Kontakte" und "Gruppen". In dem Tab "Kontakte" werden die Kontakte des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
+Es gibt die Tabs "Kontakte" und "Gruppen". In dem Tab "Kontakte" werden die Kontakte des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es kÃ¶nnen Freunde hinzufÃ¼gt und gelÃ¶scht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, BeschÃ¤ftigt und Abwesend variieren. AuÃŸerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Ã–ffnen eines Privatchats, LÃ¶schen des Freundes, HinzufÃ¼gen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es kÃ¶nnen Gruppen erstellt und gelÃ¶scht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte kÃ¶nnen in Gruppen eingeladen werden.
 
 ### Terminplaner
-Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann.
+Im Terminplaner soll es fÃ¼r den Benutzer mÃ¶glich seine Termine einzutragen. Diese Termine kÃ¶nnen fÃ¼r den Benutzer selber sein oder auch fÃ¼r eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafÃ¼r entscheidet ein Termin fÃ¼r eine Gruppe zu planen, kÃ¶nnen andere fÃ¼r den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder fÃ¼r den Termin absagen. AuÃŸerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Ãœbersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann.
 
 ### Notizen
-Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.
+Dem Benutzer ist es mÃ¶glich Notizen anzulegen. Diese kann er auÃŸerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen kÃ¶nnen dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen kÃ¶nnen dann auch den Benutzer oder die Benutzergruppe Ã¼ber festgelegte Zeit benachrichtigen.<br>
+<img src="./images/Notizen_Web.png" width="280"> <img src="./images/Notizen_Desktop.png" width="280"> <img src="./images/Notizen_Mobile.png" width="200">
 
 ### Frontend
- **Clientbeschreibungen für ProjectZero**
-
+ **Clientbeschreibungen fÃ¼r ProjectZero**
 
 #### Webclient
 
@@ -73,7 +73,7 @@ Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit andere
 | Angular 4 | JavaScript |
 
 
-#### Mobilclient für Android und iOS
+#### Mobilclient fÃ¼r Android und iOS
 **Ionic Framework basierend auf HTML5 und AngularJS**
 
 | Framework | Sprache 
@@ -81,15 +81,15 @@ Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit andere
 | Ionic | HTML5, AngularJS |
 
 
-#### Desktop-Client für Windows
+#### Desktop-Client fÃ¼r Windows
 **Desktopanwendung geschrieben in C#**
 
 ### Backend
 
 #### Server:
-Ein Webserver wird für die Backend Applikation benötigt.
-Der Server benötigt mindestens diese Anforderungen, da Laravel als Backend für das Projekt benutzt wird.
-Larvel ist ein PHP Framework, welches als eine RESTful API Lösung benutzt wird um die Client Anfragen zu verarbeiten und mit der Datenbank kommuniziert.
+Ein Webserver wird fÃ¼r die Backend Applikation benÃ¶tigt.
+Der Server benÃ¶tigt mindestens diese Anforderungen, da Laravel als Backend fÃ¼r das Projekt benutzt wird.
+Larvel ist ein PHP Framework, welches als eine RESTful API LÃ¶sung benutzt wird um die Client Anfragen zu verarbeiten und mit der Datenbank kommuniziert.
 
 https://laravel.com/
 
@@ -111,7 +111,7 @@ https://laravel.com/
 * Git
 
 #### Datenbank:
-Die Datenbank kann auch in Laravel aufgebaut werden, dafür können Migrations verwedendet werden.
+Die Datenbank kann auch in Laravel aufgebaut werden, dafÃ¼r kÃ¶nnen Migrations verwedendet werden.
 
 >Migrations are like version control for your database, allowing your team to easily modify and share the application's database schema. Migrations are 
 >typically paired with Laravel's schema builder to easily build your application's database schema. If you have ever had to tell a teammate to manually 
@@ -125,4 +125,4 @@ Die Datenbank kann auch in Laravel aufgebaut werden, dafür können Migrations ver
 * Shop
 * Blog
 
-**Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es zur Entwicklung kommt.**
+**Fehlende EintrÃ¤ge, sowie Rollenverteilung werden hinzugefÃ¼gt, sobald es zur Entwicklung kommt.**
