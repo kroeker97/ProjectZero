@@ -48,7 +48,7 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen. Dies
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.
-<img src="./images/Notizen_Web.png" width="300"> <img src="./images/Notizen_Desktop.png" width="336"> <img src="./images/Notizen_Mobile.png" width="230">
+<img src="./images/Notizen_Web.png" width="233"> <img src="./images/Notizen_Desktop.png" width="233"> <img src="./images/Notizen_Mobile.png" width="363">
 
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
