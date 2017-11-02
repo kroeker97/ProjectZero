@@ -89,4 +89,25 @@ Die Datenbank kann auch in Laravel aufgebaut werden, dafür können Migrations ver
 * Shop
 * Blog
 
+
+### Rollenverteilung
+#### Frontend
+| Desktop | Web | Mobil |
+|:--------|:----|:------|
+| Stefan K. | Patrick R. | Julien G. |
+| Dejan N. | Marti S. | Maximilian K. |
+| Pascal T. |
+| Steffen D. |
+| Marcel P. |
+| Marvin K. |
+| Luis D. |
+| Phillip P. |
+
+#### Backened
+| Datenbank | Server |
+| Nicola K. | Frank K |
+| Julian W. | Marc W. |
+| Chris S. | Erik E. |
+| Jonas P. |
+
 **Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es zur Entwicklung kommt.**
