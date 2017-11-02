@@ -105,6 +105,7 @@ Die Datenbank kann auch in Laravel aufgebaut werden, dafür können Migrations ver
 
 #### Backened
 | Datenbank | Server |
+|:----------|:-------|
 | Nicola K. | Frank K |
 | Julian W. | Marc W. |
 | Chris S. | Erik E. |
