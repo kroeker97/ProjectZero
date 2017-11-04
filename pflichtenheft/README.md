@@ -32,7 +32,10 @@ Um sich anmelden zu können, muss eine korrekte Eingabe von Benutzername und Pas
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. 
 Diese können dann aus der Spielebibliothek gestartet werden. 
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung, 
-eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen angezeigt.
+eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen angezeigt.  
+<img src="./images/Library_Web.png" width="400"> <img src="./images/Library_Desktop.png" width="380">
+
+
 ### Bewertungsfunktion
 Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt. 
 Jeder Benutzer kann sie individuell ausfüllen, wenn er das dazugehörige Spiel besitzt, 
