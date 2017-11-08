@@ -33,6 +33,7 @@ In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
 Diese können dann aus der Spielebibliothek gestartet werden. 
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung, 
 eine Bewertung und die Kontakte angezeigt welche im Moment dieses Spiel spielen und besitzen angezeigt.
+
 ### Bewertungsfunktion
 Die Bewertungsfunktion(Verweis/Bewertungssterne) wird bei jedem Spiel anzeigt. 
 Jeder Benutzer kann sie individuell ausfüllen, wenn er das dazugehörige Spiel besitzt, 
@@ -50,12 +51,16 @@ Der Admin kann an die Mitglieder Rollen verteilen, die jeweils verschiedene Rech
 Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren. In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 
+
+
 ### Chaträume
 Es wird zwischen Privatchats, Gruppenchats und öffentliche Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann mit einem ":" getrennt die Textnachricht angezeigt.
 Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen.
 Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden. 
 Über die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
 Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeiter hat, kann man sich eine Farbe auswählen. Mit dieser Farbe wird der vom Benutzer geschriebene Text hinterlegt. Jede Farbe kann dabei nur von einem Benutzer verwendet werden um Verwechslungen zu vermeiden.
+
+
 
 ### Kontaktliste
 Es gibt die Tabs "Kontakte" und "Gruppen". In dem Tab "Kontakte" werden die Kontakte des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
