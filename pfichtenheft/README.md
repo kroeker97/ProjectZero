@@ -50,8 +50,7 @@ Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von ein
 Der Admin kann an die Mitglieder Rollen verteilen, die jeweils verschiedene Rechte haben. Mit diesen Rechten kann man Mitglieder einladen bzw. rauswerfen, die Beschreibung der Gruppe ändern oder Foren erstellen und bearbeiten.
 Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren. In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
-
-
+<img src="./images/Groups_Profile_Desktop.png" width="280">
 
 ### Chaträume
 Es wird zwischen Privatchats, Gruppenchats und öffentliche Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann mit einem ":" getrennt die Textnachricht angezeigt.
@@ -59,7 +58,6 @@ Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen.
 Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden. 
 Über die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
 Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeiter hat, kann man sich eine Farbe auswählen. Mit dieser Farbe wird der vom Benutzer geschriebene Text hinterlegt. Jede Farbe kann dabei nur von einem Benutzer verwendet werden um Verwechslungen zu vermeiden.
-
 
 
 ### Kontaktliste
