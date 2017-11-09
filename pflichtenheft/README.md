@@ -49,7 +49,10 @@ der das Spiel bewertet hat und können diese Bewertungen mit einem Daumen hoch o
 Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunnde in der Kontaktliste, da man die Option hat die Gruppe auf "Öffentlich" zu stellen, sodass jeder beitreten kann. 
 Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von einem berechtigten Mitglied der Gruppe eingeladen werden. 
 Der Admin kann an die Mitglieder Rollen verteilen, die jeweils verschiedene Rechte haben. Mit diesen Rechten kann man Mitglieder einladen bzw. rauswerfen, die Beschreibung der Gruppe ändern oder Foren erstellen und bearbeiten.
-Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren. In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
+Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren. 
+In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Ein Obertab kann nur von einem Mitglied erstellt werden, der Forumrechte hat. Mitglieder ohen diese Rechte können nur in den Oberthemen Unterthemen erstellen. 
+Beiträge können als gelesen und ungelesen markiert werden. Ein Beitrag ist ungelesen, wenn er neu erstellt wurde oder ein oder mehrere neue Kommentare hinzugefügt wurden. Der Benutzer kann sie über eine Schaltfläche als gelesen markieren oder den Beitrag öffnen, damit er als ungelesen markiert wird.  
+Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 <img src="./images/Groups_Profile_Desktop.png" width="280">
 
