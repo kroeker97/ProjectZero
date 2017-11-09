@@ -135,4 +135,23 @@ Die Datenbank kann auch in Laravel aufgebaut werden, dafür können Migrations v
 * Shop
 * Blog
 
+### Glossar
+#### Terminplaner
+#### Spiele-Bibliothek
+#### Community
+#### Gruppe(n)
+#### Freund(e)
+#### Chatraum(e)
+#### Registrierung
+#### Anmeldung
+#### Abmeldung 
+#### Forum
+#### Shop
+#### Blog
+#### Backend
+#### Software
+#### Datenbank
+#### Systemarchitekturdiagramm
+#### Navigationsleiste
+
 **Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es zur Entwicklung kommt.**
