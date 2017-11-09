@@ -55,6 +55,8 @@ Beiträge können als gelesen und ungelesen markiert werden. Ein Beitrag ist ung
 Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 <img src="./images/Groups_Profile_Desktop.png" width="280">
+<img src="./images/Groups_Forum_Desktop.png" width="280">
+<img src="./images/Groups_Forum_Post_Desktop.png" width="280">
 
 ### Chaträume
 Es wird zwischen Privatchats, Gruppenchats und öffentliche Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann mit einem ":" getrennt die Textnachricht angezeigt.
