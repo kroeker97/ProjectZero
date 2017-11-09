@@ -62,16 +62,18 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <img src="./images/Chaträume_Desktop.png" width="280">
 <img src="./images/Chaträume_Browser.png" width="280">
 <img src="./images/Chaträume_Mobile.png" width="280">
+<br>
 <img src="./images/Öffentlicher&Gruppen_Chatraum_Desktop.png" width="280">
 <img src="./images/Öffentlicher&Gruppen_Chatraum_Browser.png" width="280">
 <img src="./images/Öffentlicher&Gruppen_Chatraum_Mobile.png" width="280">
+<br>
 <img src="./images/Privatchat_Desktop.png" width="280">
 <img src="./images/Privatchat_Browser.png" width="280">
 <img src="./images/Privatchat_Mobile.png" width="280">
 
 
 ### Freundesliste
-Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
+Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
 <img src="./images/Freundesliste_Desktop.png" width="280">
 <img src="./images/Freundesliste_Browser.png" width="280">
 <img src="./images/Freundesliste_Mobile.png" width="280">
