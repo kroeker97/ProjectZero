@@ -76,6 +76,7 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen. Di
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
+Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer Farbe hinterlegt, welche man über eine Farbauswahl auswählen kann. Jede Farbe kann nur von einem Mitglied benutzt werden um Verwechslung zu vermeiden. 
 <img src="./images/Notizen_Web.png" width="280"> <img src="./images/Notizen_Desktop.png" width="280"> <img src="./images/Notizen_Mobile.png" width="200">
 
 ### Frontend
