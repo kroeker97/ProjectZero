@@ -56,18 +56,23 @@ Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminp
 
 <img src="./images/Groups_Profile_Desktop.png" width="280">
 <img src="./images/Groups_Profile_Web.png" width="280">
+<img src="./images/Groups_Profile_Mobile.png" width="280">
 <br>
 <img src="./images/Groups_Forum_Desktop.png" width="280">
 <img src="./images/Groups_Forum_Web.png" width="280">
+<img src="./images/Groups_Forum_Mobile.png" width="280">
 <br>
 <img src="./images/Groups_Forum_Post_Desktop.png" width="280">
 <img src="./images/Groups_Forum_Post_Web.png" width="280">
+<img src="./images/Groups_Forum_Post_Mobile.png" width="280">
 <br>
 <img src="./images/Groups_Members_MemberView_Desktop.png" width="280">
 <img src="./images/Groups_Members_MemberView_Web.png" width="280">
+<img src="./images/Groups_Members_MemberView_Mobile.png" width="280">
 <br>
 <img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
 <img src="./images/Groups_Members_AdminView_Web.png" width="280">
+<img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
 
 ### Gruppenrollen 
 | Name | Vergabe | Rechte | 
