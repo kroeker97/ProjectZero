@@ -79,8 +79,8 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 ### Gruppenrollen 
 | Name | Vergabe | Rechte | 
 |:------------|:------------|:------------|
-| Ersteller | Beim Erstellen er Gruppe | Alle |
-| Admin | Vergabe durch Admin oder Ersteller | Rechte des Forum-Admins + Einladen Ausladen von Mitgliedern, Ernennung von andern Admins |
+| Ersteller | Beim Erstellen der Gruppe | Alle |
+| Admin | Vergabe durch Admin oder Ersteller | Rechte des Forum-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von andern Admins |
 | Forum-Admin | Vergabe durch Amin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
 | Mitglied | Beim Beitreten der Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
