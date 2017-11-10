@@ -56,32 +56,22 @@ Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem 
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitglieder über einen farbigen Punkt dargestellt. Jede Farbe steht dabei für eine Aktivität: Grün - Online, Gelb - Abwesen, Rot - Offline, Blau - Im Spiel
 
-<img src="./images/Groups_Profile_Desktop.png" width="280">
-<img src="./images/Groups_Profile_Web.png" width="280">
-<img src="./images/Groups_Profile_Mobile.png" width="280">
+<img src="./images/Groups_Profile_Desktop.png" width="280"><img src="./images/Groups_Profile_Web.png" width="280"><img src="./images/Groups_Profile_Mobile.png" width="280">
 
-<img src="./images/Groups_Forum_Desktop.png" width="280">
-<img src="./images/Groups_Forum_Web.png" width="280">
-<img src="./images/Groups_Forum_Mobile.png" width="280">
+<img src="./images/Groups_Forum_Desktop.png" width="280"><img src="./images/Groups_Forum_Web.png" width="280"><img src="./images/Groups_Forum_Mobile.png" width="280">
 
-<img src="./images/Groups_Forum_Post_Desktop.png" width="280">
-<img src="./images/Groups_Forum_Post_Web.png" width="280">
-<img src="./images/Groups_Forum_Post_Mobile.png" width="280">
+<img src="./images/Groups_Forum_Post_Desktop.png" width="280"><img src="./images/Groups_Forum_Post_Web.png" width="280"><img src="./images/Groups_Forum_Post_Mobile.png" width="280">
 
-<img src="./images/Groups_Members_MemberView_Desktop.png" width="280">
-<img src="./images/Groups_Members_MemberView_Web.png" width="280">
-<img src="./images/Groups_Members_MemberView_Mobile.png" width="280">
+<img src="./images/Groups_Members_MemberView_Desktop.png" width="280"><img src="./images/Groups_Members_MemberView_Web.png" width="280"><img src="./images/Groups_Members_MemberView_Mobile.png" width="280">
 
-<img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
-<img src="./images/Groups_Members_AdminView_Web.png" width="280">
-<img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
+<img src="./images/Groups_Members_AdminView_Desktop.png" width="280"><img src="./images/Groups_Members_AdminView_Web.png" width="280"><img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
 
 ### Gruppenrollen 
 | Name | Vergabe | Rechte | 
 |:------------|:------------|:------------|
 | Ersteller | Beim Erstellen der Gruppe | Alle |
 | Admin | Vergabe durch Admin oder Ersteller | Rechte des Forum-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von andern Admins |
-| Forum-Admin | Vergabe durch Amin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
+| Forum-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
 | Mitglied | Beim Beitreten der Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
 
