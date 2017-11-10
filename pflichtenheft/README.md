@@ -70,13 +70,12 @@ Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminp
 <img src="./images/Groups_Members_AdminView_Web.png" width="280">
 
 ### Gruppenrollen 
-#### Ersteller
-
-#### Admin
-
-#### Forum-Admin
-
-#### Mitglied
+| Name | Vergabe | Rechte | 
+|:------------|:------------|:------------|
+| Ersteller | Beim Erstellen er Gruppe | Alle |
+| Admin | Vergabe durch Admin oder Ersteller | Rechte des Forum-Admins + Einladen Ausladen von Mitgliedern, Ernennung von andern Admins |
+| Forum-Admin | Vergabe durch Amin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
+| Mitglied | Beim Beitreten der Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
 
 ### Chaträume
