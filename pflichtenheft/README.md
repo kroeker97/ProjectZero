@@ -69,6 +69,16 @@ Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminp
 <img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
 <img src="./images/Groups_Members_AdminView_Web.png" width="280">
 
+### Gruppenrollen 
+#### Ersteller
+
+#### Admin
+
+#### Forum-Admin
+
+#### Mitglied
+
+
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
 Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen. Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden. 
