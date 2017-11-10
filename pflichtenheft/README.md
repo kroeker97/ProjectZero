@@ -55,10 +55,19 @@ Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem 
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 
 <img src="./images/Groups_Profile_Desktop.png" width="280">
+<img src="./images/Groups_Profile_Web.png" width="280">
+<br>
 <img src="./images/Groups_Forum_Desktop.png" width="280">
+<img src="./images/Groups_Forum_Web.png" width="280">
+<br>
 <img src="./images/Groups_Forum_Post_Desktop.png" width="280">
+<img src="./images/Groups_Forum_Post_Web.png" width="280">
+<br>
 <img src="./images/Groups_Members_MemberView_Desktop.png" width="280">
+<img src="./images/Groups_Members_MemberView_Web.png" width="280">
+<br>
 <img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
+<img src="./images/Groups_Members_AdminView_Web.png" width="280">
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
