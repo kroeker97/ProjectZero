@@ -166,7 +166,7 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 
 #### Systemarchitekturdiagramm
 
-<img src="./images/Systemarchitekturdiagramm.png" width="600">
+<img src="./images/architektur.png" width="600">
 
 
 ### Optionale Features
