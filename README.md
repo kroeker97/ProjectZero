@@ -10,7 +10,7 @@ Wintersemster 2017/2018
 
 
 
-## Umgang mit Github
+## Umgang mit Git und Github
 
 Einige Links zu ausgewählten Themen:
 
