@@ -14,25 +14,25 @@ Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Spielebibliothek
 * Gruppen/Freunde (Community)
 * Registrierung und Anmeldung oder Abmeldung  
-<img src="./images/Navigation.png" width="400"><img src="./images/Navigation_Mobile.png" width="400">
+  <img src="./images/Navigation.png" width="400"><img src="./images/Navigation_Mobile.png" width="400">
 
 ### Registrierung
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung. 
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
 Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.  
-<img src="./images/Registration_Web.png" width="340"> <img src="./images/Registration_Desktop.png" width="320"> <img src="./images/Registration_Mobile.png" width="180">
+<img src="./images/Registration_Web.png" width="340"> <img src="./images/Registration_Desktop.png" width="260"> <img src="./images/Registration_Mobile.png" width="130">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden. 
-Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
-<img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
+Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.<br>
+<img src="./images/Login_Web.png" width="300"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="110">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt. 
 Diese können dann aus der Spielebibliothek gestartet werden. 
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung, 
 eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.  
-<img src="./images/Library_Web2.png" width="400"> <img src="./images/Library_Desktop.png" width="380">
+<img src="./images/Library_Web2.png" width="360"> <img src="./images/Library_Desktop.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. 
@@ -56,33 +56,23 @@ Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem 
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitglieder über einen farbigen Punkt dargestellt. Jede Farbe steht dabei für eine Aktivität: Grün - Online, Gelb - Abwesen, Rot - Offline, Blau - Im Spiel
 
-<img src="./images/Groups_Profile_Desktop.png" width="280">
-<img src="./images/Groups_Profile_Web.png" width="280">
-<img src="./images/Groups_Profile_Mobile.png" width="280">
+<img src="./images/Groups_Profile_Desktop.png" width="280"><img src="./images/Groups_Profile_Web.png" width="255"><img src="./images/Groups_Profile_Mobile.png" width="290">
 <br>
-<img src="./images/Groups_Forum_Desktop.png" width="280">
-<img src="./images/Groups_Forum_Web.png" width="280">
-<img src="./images/Groups_Forum_Mobile.png" width="280">
+<img src="./images/Groups_Forum_Desktop.png" width="280"><img src="./images/Groups_Forum_Web.png" width="270"><img src="./images/Groups_Forum_Mobile.png" width="200">
 <br>
-<img src="./images/Groups_Forum_Post_Desktop.png" width="280">
-<img src="./images/Groups_Forum_Post_Web.png" width="280">
-<img src="./images/Groups_Forum_Post_Mobile.png" width="280">
+<img src="./images/Groups_Forum_Post_Desktop.png" width="280"><img src="./images/Groups_Forum_Post_Web.png" width="270"><img src="./images/Groups_Forum_Post_Mobile.png" width="300">
 <br>
-<img src="./images/Groups_Members_MemberView_Desktop.png" width="280">
-<img src="./images/Groups_Members_MemberView_Web.png" width="280">
-<img src="./images/Groups_Members_MemberView_Mobile.png" width="280">
+<img src="./images/Groups_Members_MemberView_Desktop.png" width="280"><img src="./images/Groups_Members_MemberView_Web.png" width="275"><img src="./images/Groups_Members_MemberView_Mobile.png" width="100">
 <br>
-<img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
-<img src="./images/Groups_Members_AdminView_Web.png" width="280">
-<img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
+<img src="./images/Groups_Members_AdminView_Desktop.png" width="280"><img src="./images/Groups_Members_AdminView_Web.png" width="265"><img src="./images/Groups_Members_AdminView_Mobile.png" width="120">
 
 ### Gruppenrollen 
-| Name | Vergabe | Rechte | 
-|:------------|:------------|:------------|
-| Ersteller | Beim Erstellen der Gruppe | Alle |
-| Admin | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
+| Name        | Vergabe                            | Rechte                                   |
+| :---------- | :--------------------------------- | :--------------------------------------- |
+| Ersteller   | Beim Erstellen der Gruppe          | Alle                                     |
+| Admin       | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
 | Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
-| Mitglied | Beim Beitritt in die Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
+| Mitglied    | Beim Beitritt in die Gruppe        | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
 
 ### Chaträume
@@ -91,24 +81,16 @@ Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen.
 Über die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
 Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeiter hat, kann man sich eine Farbe auswählen. Mit dieser Farbe wird der vom Benutzer geschriebene Text hinterlegt. Jede Farbe kann dabei nur von einem Benutzer verwendet werden um Verwechslungen zu vermeiden.
 <br>
-<img src="./images/Chaträume_Desktop.png" width="280">
-<img src="./images/Chaträume_Browser.png" width="280">
-<img src="./images/Chaträume_Mobile.png" width="280">
+<img src="./images/Chaträume_Desktop.png" width="280"><img src="./images/Chaträume_Browser.png" width="270"><img src="./images/Chaträume_Mobile.png" width="150">
 <br>
-<img src="./images/Öffentlicher&Gruppen_Chatraum_Desktop.png" width="280">
-<img src="./images/Öffentlicher&Gruppen_Chatraum_Browser.png" width="280">
-<img src="./images/Öffentlicher&Gruppen_Chatraum_Mobile.png" width="280">
+<img src="./images/Öffentlicher&Gruppen_Chatraum_Desktop.png" width="280"><img src="./images/Öffentlicher&Gruppen_Chatraum_Browser.png" width="265"><img src="./images/Öffentlicher&Gruppen_Chatraum_Mobile.png" width="120">
 <br>
-<img src="./images/Privatchat_Desktop.png" width="280">
-<img src="./images/Privatchat_Browser.png" width="280">
-<img src="./images/Privatchat_Mobile.png" width="280">
+<img src="./images/Privatchat_Desktop.png" width="280"><img src="./images/Privatchat_Browser.png" width="265"><img src="./images/Privatchat_Mobile.png" width="120">
 
 
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
-<img src="./images/Freundesliste_Desktop.png" width="280">
-<img src="./images/Freundesliste_Browser.png" width="280">
-<img src="./images/Freundesliste_Mobile.png" width="280">
+<img src="./images/Freundesliste_Desktop.png" width="200"><img src="./images/Freundesliste_Browser.png" width="360"><img src="./images/Freundesliste_Mobile.png" width="160">
 
 ### Terminplaner
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und auch wieder zu bearbeiten. Das bearbeiten geschieht durch drücken des Sclüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig. 
