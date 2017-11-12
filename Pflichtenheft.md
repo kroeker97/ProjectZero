@@ -111,11 +111,27 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/Freundesliste_Mobile.png" width="280">
 
 ### Terminplaner
+
+#### Beschreibung
+
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und auch wieder zu bearbeiten. Das bearbeiten geschieht durch drücken des Sclüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig. 
+
+#### Mockups
 
 <img src="./images/Terminplaner Web.png" width="450"><img src="./images/Terminplaner hinzufügen Web.png" width="450">
 <img src="./images/Terminplaner Desktop.png" width="550"><img src="./images/Terminplaner hinzufügen Desktop.png" width="330">
 <img src="./images/Terminplaner Mobil.png" width="550"><img src="./images/Terminplaner hinzufügen Mobil.png" width="330">
+
+#### User-Stories
+
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+| Als Benutzer | möchte ich Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
+| Als Benutzer | möchte ich meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
+| Als Benutzer | möchte ich detaillierte Beschreibung von Terminen bestimmten Daten sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
+| Als Gruppen-Admin| möchte ich Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
+| Als Gruppenmitglied | möchte ich die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. | Die Termine sollen im Kalendar farblich markiert werden | MUSS |
+| Als Gruppen-Admin/Gruppenmitglied | möchte ich sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| MUSS |
+
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
