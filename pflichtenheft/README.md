@@ -42,6 +42,7 @@ Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kle
 indem er seine Meinung zum entsprechenden Spiel schreibt. 
 Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, 
 die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  
+Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
 <img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
 
 ### Gruppen
@@ -49,16 +50,40 @@ Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organi
 Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von einem berechtigten Mitglied der Gruppe eingeladen werden. 
 Der Admin kann an die Mitglieder Rollen verteilen, die jeweils verschiedene Rechte haben. Mit diesen Rechten kann man Mitglieder einladen bzw. rauswerfen, die Beschreibung der Gruppe ändern oder Foren erstellen und bearbeiten.
 Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren. 
-In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Ein Obertab kann nur von einem Mitglied erstellt werden, der Forumrechte hat. Mitglieder ohen diese Rechte können nur in den Oberthemen Unterthemen erstellen. 
+In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Ein Obertab kann nur von einem Mitglied erstellt werden, der Forumrechte hat. Mitglieder ohne diese Rechte können nur in den Oberthemen Unterthemen erstellen. 
 Beiträge können als gelesen und ungelesen markiert werden. Ein Beitrag ist ungelesen, wenn er neu erstellt wurde oder ein oder mehrere neue Kommentare hinzugefügt wurden. Der Benutzer kann sie über eine Schaltfläche als gelesen markieren oder den Beitrag öffnen, damit er als ungelesen markiert wird.  
 Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
+Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitglieder über einen farbigen Punkt dargestellt. Jede Farbe steht dabei für eine Aktivität: Grün - Online, Gelb - Abwesen, Rot - Offline, Blau - Im Spiel
 
 <img src="./images/Groups_Profile_Desktop.png" width="280">
+<img src="./images/Groups_Profile_Web.png" width="280">
+<img src="./images/Groups_Profile_Mobile.png" width="280">
+<br>
 <img src="./images/Groups_Forum_Desktop.png" width="280">
+<img src="./images/Groups_Forum_Web.png" width="280">
+<img src="./images/Groups_Forum_Mobile.png" width="280">
+<br>
 <img src="./images/Groups_Forum_Post_Desktop.png" width="280">
+<img src="./images/Groups_Forum_Post_Web.png" width="280">
+<img src="./images/Groups_Forum_Post_Mobile.png" width="280">
+<br>
 <img src="./images/Groups_Members_MemberView_Desktop.png" width="280">
+<img src="./images/Groups_Members_MemberView_Web.png" width="280">
+<img src="./images/Groups_Members_MemberView_Mobile.png" width="280">
+<br>
 <img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
+<img src="./images/Groups_Members_AdminView_Web.png" width="280">
+<img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
+
+### Gruppenrollen 
+| Name | Vergabe | Rechte | 
+|:------------|:------------|:------------|
+| Ersteller | Beim Erstellen der Gruppe | Alle |
+| Admin | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
+| Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
+| Mitglied | Beim Beitritt in die Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
+
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
@@ -168,29 +193,42 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 * Blog
 
 ### Glossar
-Unser Stichwortverzeichnis mit Definition und Beschreibungen ebendieser.
-**Das Glossar wird parallel zum stetigen Fortschritt des Projektes erweitert.**
+Unser Stichwort- bzw. Begriffsverzeichnis mit Definition und Beschreibungen ebendieser.
 
-#### ProjectZero
-Codename unseres Gruppenprojektes, welches eine Community-Plattform für Computerspiele wird.
+#### Account
+Ein Account ist ein Benutzerkonto, dass den Benutzer auf unserer Community-Plattform authentifiziert und autorisiert verschiedene Rollen einzunehmen.
+Dieser besteht aus Benutzername, Passwort sowie E-Mail-Adresse.
 
-#### Navigationsleiste
-Oberste Leiste, die den Benutzerstatus und die wichtigsten Funktionen enthält.
-
-#### Terminplaner
-Kalender, der Einträge für sämtliche Veranstaltungen beinhaltet. Dieser enthält persönliche und Gruppeneinträge und erinnert an Termine.
-
-#### Spielebibliothek
-Fenster, das alle Spiele im Besitz des jeweiligen Benutzers umfasst.
-
-#### Community
-Beschreibt alle Benutzer unseres Community-Plattform für Computerspiele.
+#### Backend
+Die logische Teil unseres Projektes. Dieser beinhaltet die Server-Applikation, die Datenbank und die Server-Hardware.
 
 #### Benutzer
-Person, die auf der Community-Plattform mindestens einen Benutzer-Account hat.
+Person, die auf der Community-Plattform mindestens einen Account besitzt. 
 
-#### Gruppe(n)
-Zusammenschluss von mindestens zwei verschiedenen Spielern, um bspw. zusammen zu chatten oder ein Computerspiel zu spielen. Die maximale Gruppengröße liegt derzeit bei 100 Teilnehmern.
+#### Benutzername
+Anzeigename, den der Benutzer, bei seiner Registrierung gewählt hat. Dieser Name ist öffentlich d.h. für alle Benutzer sichtbar. Der Benutzername des Accounts darf sich aus drei bis 16 Schriftzeichen zusammensetzen. Zu den erlaubten Schriftzeichen gehören Klein- und Großbuchstaben des lateinischen Alphabets von A bis Z, die deutschen Umlaute "Ä", "Ö" und "Ü" sowie die Ziffern von 0 bis 9. Sonderzeichen und Symbole sind nicht zugelassen.
+
+#### Bewertung
+Benutzer können zu Spielen, in deren Besitz, eine individuelle Beurteilung verfassen. Jeder Benutzer darf pro Spiel maximal eine Bewertung abgeben. Diese Bewertung besteht aus einer Benotung aus Sternen von eins bis fünf (von schlecht bis sehr gut) und einem optionalen Bewertungstext aus maximal 1000 Zeichen, in dem sich die Meinung des Benutzers zum entsprechenden Computerspiel widerspiegelt. Zudem können Benutzer die Bewertungen anderer Benutzer positiv bzw. negativ bewerten. Die durchschnittliche Bewertung gibt das Mittel aus allen abgegebenen Bewertungen wider.
+
+#### Blog
+Ankündigungen über Neuigkeiten und Änderungen werden hier veröffentlicht.
+
+#### Chat
+Digitale Textnachrichtenkommunikation zwischen den Benutzern über die Community-Plattform.
+
+#### Chatraum(e)
+Fenster, um mit diversen Benutzern/Benutzergruppen Nachrichten auszutauschen. Die Aufteilung erfolgt in privaten, Gruppen- und öffentlichen Chats.
+
+#### Community
+Bezeichnet die Menge aller Accounts unserer Community-Plattform für Computerspiele.
+
+#### Datenbank
+Speicherstruktur, welche alle Benutzeranmeldedaten (Accounts) enthält.
+
+#### Forum
+Moderierte Plattform, um sich innerhalb der Community über diverse Themen auszutauschen.
+Jeder angemeldete Benutzer darf Themen erstellen.
 
 #### Freund(e)
 Benutzer, die der angemeldete Benutzer zu seiner Freundeliste hinzugefügt hat.
@@ -198,50 +236,46 @@ Benutzer, die der angemeldete Benutzer zu seiner Freundeliste hinzugefügt hat.
 #### Freundeliste
 Liste aller Benutzer, die als Freund hinzugefügt wurden.
 
-#### Chat
-Schriftliche Unterhaltung der Benutzer untereinander. Die Verwendung von Emojis ist
+#### Frontend
+Der visuelle Teil unseres Projektes. Die für jeden Benutzer sichtbare graphische Oberfläche (GUI), in Form der Desktop-Applikation für Desktop-Betriebssysteme, Mobile-Applikation für Smartphone-Betriebssysteme sowie der Web-Oberfläche, die plattformunabhängig verwendet werden kann. Dieser läuft auf der Client-Hardware der Benutzer.
 
-#### Chatraum(e)
-Fenster, um mit diversen Benutzergruppen zu schreiben. Die Aufteilung erfolgt nach privaten, Grupppen- und öffentliche Chats.
+#### Gruppe(n)
+Zusammenschluss von mindestens zwei verschiedenen Benutzern, um bspw. zusammen zu chatten oder ein Computerspiel zu spielen. Die maximale Gruppengröße liegt derzeit bei 100 Benutzern.
+
+#### Gruppenrolle(n) bzw. Rolle(n)
+Benutzer haben verschiedene Rechte innerhalb einer Gruppe, die anhand der Rollen "Ersteller", "Admin", "Foren-Admin" und "Mitglied" autorisiert werden.
+
+#### Navigationsleiste
+Oberste Leiste, die den Benutzerstatus und die wichtigsten Funktionen enthält.
+
+#### Objekt(e)
+Auswählbare funktionale Elemente unsere Benutzeroberfläche.
+
+#### Passwort
+Zeichenfolge zur Authentifizierung, die der Benutzer, bei seiner Registrierung gewählt hat. Das Passwort des Accounts darf sich aus acht bis 32 Schriftzeichen zusammensetzen. Zu den erlaubten Schriftzeichen gehören Klein- und Großbuchstaben des lateinischen Alphabets von A bis Z, die deutschen Umlaute "Ä", "Ö" und "Ü", die Ziffern von 0 bis 9 sowie die üblichen Sonderzeichen "ß", "?", "!", ".", ",", "#", "@", "*", "&", "$", "€". Weitere Sonderzeichen und Symbole sind nicht zugelassen.
+
+#### ProjectZero
+Codename unseres Gruppenprojektes, welches eine Community-Plattform für Computerspiele wird.
 
 #### Registrierung
-Erstellung eines Benutzer-Accounts mit Benutzername, Passwort sowie E-Mail-Adresse, um ein Benutzer bzw. Mitglied der Community-Plattform zu werden.
+Erstellung eines Accounts, um ein Benutzer der Community-Plattform zu werden.
 
-#### Anmeldung
-Der Anmeldevorgang (Login-Vorgang) des Benutzers, um sich mit dem bereits erstelten Benutzer-Account zu authentifizieren und somit anzumelden.
-
-#### Abmeldung 
-Der Abmneldevorgang (Logout-Vorgang) des Benutzers, um sich mit dem bereits angemeldeten Benutzer-Account abzumelden.
-
-#### Bewertungsfunktion
-Jeder angemeldete Benutzer darf angebotene PC-Spiele auf der Community-Plattform bewerten.
-
-#### Frontend
-Der visuelle Teil unseres Projektes. Die für jeden Benutzer sichtbare graphische Oberfläche (GUI), in Form der Desktop-Applikation, Mobile-App für Smartphone-Betriebssysteme sowie der Web-Oberfläche die plattformunabhängig verwendet werden kann. Dieser läuft auf der Client-Hardware der Benutzer.
-
-#### Backend
-Die logische Teil unseres Projektes. Dieser beinhaltet die Server-Applikation, die Datenbank und die Server-Hardware.
+#### Shop
+Fenster, um PC-Spiele, Zusatzinhalte für PC-Spiele (DLC & Add-On), Lootboxen für PC-Spiele sowie Mods (Spielemodifikationen) kostenlos und kostenpflichtig zu erwerben.
 
 #### Software
 Zur Entwicklung des Projektes verwendete Anwendungen.
 
-#### Datenbank
-Speicherstruktur, welche alle Benutzeranmeldedaten enthält.
-
-#### Systemarchitekturdiagramm
-Graphische Darstellung der im Software-System verwendeten Komponenten mit verwendetem Framework und Programmmiersprache sowie deren Verbindungen untereinander.
-
 #### Software-System
 Die Bezeichnung, für die komplette Software inklusive Server-Anwendung, Client-Anwendung sowie Dokumentation.
 
-#### Forum
-Moderierte Plattform, um sich innerhalb der Community über diverse Themen auszutauschen.
-Jeder angemeldete Benutzer darf Themen erstellen.
+#### Spielebibliothek
+Fenster, das alle Spiele im Besitz des jeweiligen Benutzers anzeigt.
 
-#### Shop
-Oberfläche, um PC-Spiele, Zusatzinhalte für PC-Spiele (DLC & Add-On), Lootboxen für PC-Spiele sowie Mods (Spielemodifikationen) kostenlos und kostenpflichtig zu erwerben.
+#### Termin
+Eintrag und Erinnerung an eine Veranstaltung oder Ereignis, das öffentlich, in der Gruppe oder nur privat einsehbar ist. Der Benutzer kann einem Termin zu- oder absagen.
 
-#### Blog
-Ankündigungen über Neuigkeiten und Änderungen werden hier veröffentlicht.
+#### Terminplaner
+Kalender, der Termine für sämtliche Veranstaltungen und Ereignisse enthält. Dazu zählen öffentliche, Gruppen- und persönliche bzw. private Termine.
 
 **Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es zur Entwicklung kommt.**
