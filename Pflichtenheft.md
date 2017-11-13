@@ -6,7 +6,7 @@
 Community-Plattform für Computerspiele
 
 ### Navigationsleiste
-Die Navigationsleiste ist allen anderen Objekten übergeordnet. Sie wird also über jedem Objekt dargestellt.
+Die Navigationsleiste ist allen anderen Funktionen übergeordnet, wird oben auf jeder Seite angezeigt. Sie wird also über jedem Objekt dargestellt.
 Sie beinhaltet die wichtigsten Verweise. Ein Verweis auf die Registrierung, Anmeldung oder Abmeldung.
 Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Logo der Plattform (Verweis auf die Startseite)
@@ -35,7 +35,7 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <img src="./images/Library_Web2.png" width="360"> <img src="./images/Library_Desktop.png" width="400">
 
 ### Bewertungsfunktion
-Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. 
+Die Bewertungsfunktion wird bei jedem Spiel angezeigt, mit Sternen, die den Durchschnitt der Bewertungen darstellt. 
 Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. 
 Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden.
 Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, 
