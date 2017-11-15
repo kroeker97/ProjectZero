@@ -1,4 +1,4 @@
-## Pflichtenheft
+﻿## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
@@ -46,7 +46,7 @@ Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach
 <img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
 
 ### Gruppen
-Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunnde in der Kontaktliste; Da man die Option hat, die Gruppe auf "Öffentlich" zu stellen, sodass jeder Benutzer beitreten kann.
+Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunde in der Kontaktliste; Da man die Option hat, die Gruppe auf "Öffentlich" zu stellen, sodass jeder Benutzer beitreten kann.
 Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von einem berechtigten Mitglied der Gruppe eingeladen werden.
 Der Admin kann an die Mitglieder Rollen verteilen, die jeweils verschiedene Rechte haben. Mit diesen Rechten kann man Mitglieder einladen bzw. rauswerfen, die Beschreibung der Gruppe ändern oder Foren erstellen und bearbeiten.
 Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren.
@@ -84,6 +84,20 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
 | Mitglied | Beim Beitritt in die Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
+### User-Stories
+
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
+| Als Benutzer | Gruppen erstellen | ich Freunde zur Gruppe hinzufügen kann | Erzeugung der Gruppe | MUSS |
+| Als Benutzer | Gruppen öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS |
+| Als Benutzer | Chats der Gruppe beitreten | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern | MUSS |
+| Als Gruppenadmin | die Sichtbarkeit der Gruppe ändern | sie Öffentlich oder Privat ist |  | MUSS |
+| Als Gruppenadmin | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |  | MUSS |
+| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen | Diskussionen im Forum geordneter sind | sichtbare Oberthemen im Forum | MUSS |
+| Als Gruppenmitglied | Unterthemen im Forum erstellen | Diskussionen angeregt werden | sichtbare Unterthemen im Forum | MUSS |
+| Als Gruppenmitglied | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | MUSS |
+| Als Gruppenmitglied | meine Kommentare and Unterthemen senden | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt | MUSS |
+| Als Mobilnutzer | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | MUSS |
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
