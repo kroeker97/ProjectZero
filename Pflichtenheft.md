@@ -125,6 +125,7 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 #### User-Stories
 
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
 | Als Benutzer | möchte ich Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
 | Als Benutzer | möchte ich meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
 | Als Benutzer | möchte ich detaillierte Beschreibung von Terminen bestimmten Daten sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
