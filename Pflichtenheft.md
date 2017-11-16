@@ -27,6 +27,20 @@ Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
+### User-Story: Registrierung und Anmeldung
+In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem 
+Benutzernamen/Email und Passwort regestrieren und einloggen können.
+Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
+
+| Rolle | möchte ich... | so dass... | Akzeptanz | Priorität |
+|-------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Kunde | mich registrieren können | ich mit anmelden kann | Bei der Registrierung muss ein Benutzername, eine Email-Adresse und ein Passwort angegeben worden sein | MUSS |
+| Kunde | mich mit meinem Benutzernamen ODER Email anmelden können | ich meine Nutzerfunktionen ausschöpfen kann | Bei der Anmeldung muss entweder der Benutzername oder die Email angegeben werden. Zusätzlich muss das entsprechende Passwort eingegeben werden | MUSS |
+| Kunde | mein Passwort bei der Registrierung wiederholt eingeben | ich bei einem möglichen Tippfehler kein "falsches" Passwort erstelle | Das Passwort wird bei der Registrierung in zwei Textfeldern wiederholt eingegeben | MUSS |
+| Kunde | mein Passwort zurücksetzen können | ich mein "verlorenes" Passwort und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Passwort-vergessen" Button kann man mit Hilfe einer "Reaktivierungs"-Email das entsprechende Passwort zurücksetzen lassen; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
+| Kunde | mein Benutzernamen "nachfragen" können | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
+| Kunde | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN |
+
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
 Diese können dann aus der Spielebibliothek gestartet werden.
@@ -100,15 +114,15 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
 | Als Benutzer | Gruppen erstellen | ich Freunde zur Gruppe hinzufügen kann | Erzeugung der Gruppe | MUSS |
-| Als Benutzer | Gruppen öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS |
+| Als Benutzer | öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS |
 | Als Benutzer | Chats der Gruppe beitreten | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern | MUSS |
-| Als Gruppenadmin | die Sichtbarkeit der Gruppe ändern | sie Öffentlich oder Privat ist |  | MUSS |
-| Als Gruppenadmin | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |  | MUSS |
-| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen | Diskussionen im Forum geordneter sind | sichtbare Oberthemen im Forum | MUSS |
-| Als Gruppenmitglied | Unterthemen im Forum erstellen | Diskussionen angeregt werden | sichtbare Unterthemen im Forum | MUSS |
-| Als Gruppenmitglied | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | MUSS |
-| Als Gruppenmitglied | meine Kommentare and Unterthemen senden | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt | MUSS |
-| Als Mobilnutzer | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | MUSS |
+| Als Gruppenadmin | die Sichtbarkeit der Gruppe ändern | sie Öffentlich oder Privat ist |  | SOLL |
+| Als Gruppenadmin | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |  | SOLL |
+| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen | Diskussionen im Forum geordneter sind | sichtbare Oberthemen im Forum | SOLL |
+| Als Gruppenmitglied | Unterthemen im Forum erstellen | Diskussionen angeregt werden | sichtbare Unterthemen im Forum | SOLL |
+| Als Gruppenmitglied | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | KANN |
+| Als Gruppenmitglied | meine Kommentare and Unterthemen senden | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt | SOLL |
+| Als Mobilnutzer | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN |
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
@@ -128,12 +142,37 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <img src="./images/Privatchat_Browser.png" width="280">
 <img src="./images/Privatchat_Mobile.png" width="280">
 
+#### User-Stories
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
+|Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
+|Als Benutzer|möchte ich sehen, wer im Chat mitliest und geschrieben hat|so dass ich weiß, wer beteiligt ist.||MUSS|
+|Als Benutzer|möchte ich meinem Chatraum einen Namen geben können|so dass ich meine Chaträume auseinanderhalten kann.||MUSS|
+|Als Benutzer|möchte ich Nutzer stumm schalten können|so dass mich störende Benutzer nicht weiter belästigen können.||MUSS|
+|Als Benutzer|möchte ich bei neuen Nachrichten benachrichtigt werden|so dass ich immer auf dem aktuellen Stand bin.||MUSS|
+|Als Benutzer|möchte ich Benutzer als Freund hinzufügen können|so dass ich alle meine Kontakte in meiner Freundesliste habe.||MUSS|
+|Als Benutzer|möchte ich Benutzern eine einzigartige Farbe zuweisen können|so dass ich sie auseinander halten kann.||MUSS|
+|Als Chatadmin|möchte ich andere Nutzer hinzufügen und entfernen können|so dass ich die Kontrolle über die Teilnehmer behalte.||MUSS|
 
 ### Freundesliste
-Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
+Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
 <img src="./images/Freundesliste_Desktop.png" width="280">
 <img src="./images/Freundesliste_Browser.png" width="280">
 <img src="./images/Freundesliste_Mobile.png" width="280">
+
+#### User-Stories
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
+|Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
+|Als Benutzer|Freunde meiner Freundesiste hinzufügen,|ich sie in meiner Freundesliste sehen kann.|Auftauchen des hinzugefügten Benutzers in der Freundesliste.|MUSS|
+|Als Benutzer|Freunde von meiner Freundesliste entfernen,|sie nicht mehr in der Freundesliste sind.|Freund ist nicht mehr in der Freundesliste|MUSS|
+|Als Benutzer|einen Status haben und den von anderen Benutzern sehen,|ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin.|Sichtbarer Status.|MUSS|
+|Als Benutzer|Statis in verschiedenen Farben sehen,|ich sie besser unterscheiden kann.|Verschiedenfarbige Statis.|SOLL|
+|Als Benutzer|die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen,|andere Benutzer daran teilhaben können.|Aktivitäten werden angezeigt.|SOLL|
+|Als Benutzer|einen Privatchat mit Freunden öffnen können,|ich mich mit ihnen unterhalten kann.|Funktionierender Privatchat|MUSS|
+|Als Benutzer|Gruppen erstellen können,|ich mich mit anderen Freunden in einer Gruppe zusammenschließen kann.|Gruppen können erstellt werden.|MUSS|
+|Als Gruppenersteller|Gruppen löschen können,|inaktive Gruppen entfernt werden können.|Gruppen können entfernt werden.|MUSS|
+|Als Benutzer|Freunde in eine Gruppe einladen können,|ich in der selben Gruppe mit ihnen bin.|Gruppeneinladngen müssen funktionieren|MUSS|
 
 ### Terminplaner
 
@@ -151,12 +190,12 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-| Als Benutzer | möchte ich Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
-| Als Benutzer | möchte ich meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
-| Als Benutzer | möchte ich detaillierte Beschreibung von Terminen bestimmten Daten sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
-| Als Gruppen-Admin| möchte ich Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
-| Als Gruppenmitglied | möchte ich die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. | Die Termine sollen im Kalendar farblich markiert werden | MUSS |
-| Als Gruppen-Admin/Gruppenmitglied | möchte ich sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| MUSS |
+| Als Benutzer | Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
+| Als Benutzer | meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
+| Als Benutzer | detaillierte Beschreibung von Terminen an einem bestimmten Datum sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
+| Als Gruppen-Admin| Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
+| Als Gruppenmitglied | die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. || MUSS |
+| Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| SOLL |
 
 
 ### Notizen
