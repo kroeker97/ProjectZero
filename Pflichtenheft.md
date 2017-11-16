@@ -27,6 +27,20 @@ Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
+### User-Story: Registrierung und Anmeldung
+In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem 
+Benutzernamen/Email und Passwort regestrieren und einloggen können.
+Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
+
+| Rolle | möchte ich... | so dass... | Akzeptanz | Priorität |
+|-------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| Kunde | mich registrieren können | ich mit anmelden kann | Bei der Registrierung muss ein Benutzername, eine Email-Adresse und ein Passwort angegeben worden sein | MUSS |
+| Kunde | mich mit meinem Benutzernamen ODER Email anmelden können | ich meine Nutzerfunktionen ausschöpfen kann | Bei der Anmeldung muss entweder der Benutzername oder die Email angegeben werden. Zusätzlich muss das entsprechende Passwort eingegeben werden | MUSS |
+| Kunde | mein Passwort bei der Registrierung wiederholt eingeben | ich bei einem möglichen Tippfehler kein "falsches" Passwort erstelle | Das Passwort wird bei der Registrierung in zwei Textfeldern wiederholt eingegeben | MUSS |
+| Kunde | mein Passwort zurücksetzen können | ich mein "verlorenes" Passwort und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Passwort-vergessen" Button kann man mit Hilfe einer "Reaktivierungs"-Email das entsprechende Passwort zurücksetzen lassen; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
+| Kunde | mein Benutzernamen "nachfragen" können | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
+| Kunde | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN |
+
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
 Diese können dann aus der Spielebibliothek gestartet werden.
