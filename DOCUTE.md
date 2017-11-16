@@ -7,8 +7,8 @@
 **Mittels Paketmanager npm (Node.js Package Manager)**
 
 Mit dem Paketmanager npm kann docute schnell installiert werden.<br />
-Falls npm nicht installiert ist, kann dieser mit der Installation von [Node.js](https://nodejs.org/de/download/) installiert werden.
-Dazu den Befehl `npm i -g docute-cli` in die Kommandozeile des Betriebssystems eingeben. 
+Falls npm nicht installiert ist, kann dieser mit der Installation von [Node.js](https://nodejs.org/de/download/) installiert werden.<br />
+Um Docute mit Hilfe von npm zu installieren, den Befehl `npm i -g docute-cli` in die Kommandozeile des Betriebssystems eingeben. 
 
 
 ## Schnellstart
