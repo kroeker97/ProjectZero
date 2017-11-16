@@ -117,6 +117,17 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <img src="./images/Privatchat_Browser.png" width="280">
 <img src="./images/Privatchat_Mobile.png" width="280">
 
+#### User-Stories
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
+|Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
+|Als Benutzer|möchte ich sehen, wer im Chat mitliest und geschrieben hat|so dass ich weiß, wer beteiligt ist.||MUSS|
+|Als Benutzer|möchte ich meinem Chatraum einen Namen geben können|so dass ich meine Chaträume auseinanderhalten kann.||MUSS|
+|Als Benutzer|möchte ich Nutzer stumm schalten können|so dass mich störende Benutzer nicht weiter belästigen können.||MUSS|
+|Als Benutzer|möchte ich bei neuen Nachrichten benachrichtigt werden|so dass ich immer auf dem aktuellen Stand bin.||MUSS|
+|Als Benutzer|möchte ich Benutzer als Freund hinzufügen können|so dass ich alle meine Kontakte in meiner Freundesliste habe.||MUSS|
+|Als Benutzer|möchte ich Benutzern eine einzigartige Farbe zuweisen können|so dass ich sie auseinander halten kann.||MUSS|
+|Als Chatadmin|möchte ich andere Nutzer hinzufügen und entfernen können|so dass ich die Kontrolle über die Teilnehmer behalte.||MUSS|
 
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
