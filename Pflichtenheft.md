@@ -114,15 +114,15 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
 | Als Benutzer | Gruppen erstellen | ich Freunde zur Gruppe hinzufügen kann | Erzeugung der Gruppe | MUSS |
-| Als Benutzer | Gruppen öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS |
+| Als Benutzer | öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS |
 | Als Benutzer | Chats der Gruppe beitreten | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern | MUSS |
-| Als Gruppenadmin | die Sichtbarkeit der Gruppe ändern | sie Öffentlich oder Privat ist |  | MUSS |
-| Als Gruppenadmin | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |  | MUSS |
-| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen | Diskussionen im Forum geordneter sind | sichtbare Oberthemen im Forum | MUSS |
-| Als Gruppenmitglied | Unterthemen im Forum erstellen | Diskussionen angeregt werden | sichtbare Unterthemen im Forum | MUSS |
-| Als Gruppenmitglied | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | MUSS |
-| Als Gruppenmitglied | meine Kommentare and Unterthemen senden | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt | MUSS |
-| Als Mobilnutzer | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | MUSS |
+| Als Gruppenadmin | die Sichtbarkeit der Gruppe ändern | sie Öffentlich oder Privat ist |  | SOLL |
+| Als Gruppenadmin | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |  | SOLL |
+| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen | Diskussionen im Forum geordneter sind | sichtbare Oberthemen im Forum | SOLL |
+| Als Gruppenmitglied | Unterthemen im Forum erstellen | Diskussionen angeregt werden | sichtbare Unterthemen im Forum | SOLL |
+| Als Gruppenmitglied | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | KANN |
+| Als Gruppenmitglied | meine Kommentare and Unterthemen senden | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt | SOLL |
+| Als Mobilnutzer | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN |
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
