@@ -34,6 +34,17 @@ Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Sp
 eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.  
 <img src="./images/Library_Web2.png" width="400"> <img src="./images/Library_Desktop.png" width="380">
 
+### User-Stories
+
+| Rolle        | In meiner Rolle möchte ich                      | so dass                                            | Akzeptanz                                                                   | Priorität  |
+|--------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------|------------|
+| Als Benutzer | meine gekauften Spiele sehen                    | ich auf einen Blick sehe welche Spiele ich besitze | In der Spielebibliothek werden 0-n gekaufte Spiele angezeigt.               | 1 – Must   |
+| Als Benutzer | meine Spiele auswählen                          | ich erweiterte Informationen zum Spiel bekomme     | Bei Auswahl eines Spiels wird eine erweiterte Ansicht angezeigt             | 1 – Must   |
+| Als Benutzer | meine Spiele starten                            | ich meine Spiele spielen kann                      | Startbutton wird in der erweiterten Ansicht angezeigt                       | 1 – Must   |
+| Als Benutzer | gekaufte Spiele einlösen                        | ich sie meiner Bibliothek hinzuzufügen             | es einen Menüpunkt gibt, mit dem man Spiele aktivieren kann                 | 1 – Must   |
+| Als Benutzer | wissen wer das aktuell ausgewählte Spiel spielt | ich das Spiel gemeinsam mit Freunden spielen kann  | bei jedem Spiel werden 0-n Freunde angezeigt, die das Spiel aktuell spielen | 2 – Should |
+| Als Benutzer | die Beschreibung lesen                          | ich weiß worum es in dem Spiel geht                | eine Beschreibung angezeigt wird                                            | 3 – Could  |
+
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt.
 Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt.
