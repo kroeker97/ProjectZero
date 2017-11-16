@@ -176,12 +176,12 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-| Als Benutzer | möchte ich Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
-| Als Benutzer | möchte ich meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
-| Als Benutzer | möchte ich detaillierte Beschreibung von Terminen bestimmten Daten sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
-| Als Gruppen-Admin| möchte ich Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
-| Als Gruppenmitglied | möchte ich die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. | Die Termine sollen im Kalendar farblich markiert werden | MUSS |
-| Als Gruppen-Admin/Gruppenmitglied | möchte ich sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| MUSS |
+| Als Benutzer | Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
+| Als Benutzer | meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
+| Als Benutzer | detaillierte Beschreibung von Terminen an einem bestimmten Datum sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
+| Als Gruppen-Admin| Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
+| Als Gruppenmitglied | die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. || MUSS |
+| Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| SOLL |
 
 
 ### Notizen
