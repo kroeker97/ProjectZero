@@ -28,7 +28,7 @@ Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort get
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
 ### User-Story: Registrierung und Anmeldung
-In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem 
+In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
 Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
 
@@ -207,13 +207,13 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 #### User-Stories
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|möchte ich Notizen anlegen|so dass ich wichtige Informationen immer im Blick habe.||MUSS|
-|Als Benutzer|möchte ich vorhandene Notizen bearbeiten|so dass ich bei kleinen Änderungen keine neue Notiz anlegen muss.||MUSS|
-|Als Benutzer|möchte ich Notizen einen Titel geben|so dass ich meine Notizen auseinanderhalten kann.|Der Titel soll über der eigentlichen Notiz dauerhaft angezeigt werden.|MUSS|
-|Als Benutzer|möchte ich unter meinen verschiedenen Notizen auswählen|so dass ich aussuchen kann, welche ich einsehen will.|Die Notizen werden nur in Form ihrer Titel aufgelistet um daraus auswählen zu können.|SOLL|
-|Als Notizenersteller|möchte ich meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen|so dass andere meine Notizen sehen können.|Mitglieder werden neben der eigentlichen Notiz aufgeführt.|MUSS|
-|Als Notizenersteller|möchte ich Mitgliedern die Bearbeitung der Notiz erlauben|so dass auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
-|Als Mitglied|möchte ich die Farbe mit der mein Text hinterlegt ist auswählen|so dass ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|SOLL|
+|Als Benutzer|Notizen anlegen|ich wichtige Informationen immer im Blick habe.||MUSS|
+|Als Benutzer|vorhandene Notizen bearbeiten|ich bei kleinen Änderungen keine neue Notiz anlegen muss.||MUSS|
+|Als Benutzer|Notizen einen Titel geben|ich meine Notizen auseinanderhalten kann.|Der Titel soll über der eigentlichen Notiz dauerhaft angezeigt werden.|MUSS|
+|Als Benutzer|unter meinen verschiedenen Notizen auswählen|ich aussuchen kann, welche ich einsehen will.|Die Notizen werden nur in Form ihrer Titel aufgelistet um daraus auswählen zu können.|MUSS|
+|Als Notizenersteller|meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen|andere meine Notizen sehen können.|Mitglieder werden neben der eigentlichen Notiz aufgeführt.|SOLL|
+|Als Notizenersteller|Mitgliedern die Bearbeitung der Notiz erlauben|auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
+|Als Mitglied|die Farbe mit der mein Text hinterlegt ist auswählen|ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|KANN|
 
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
