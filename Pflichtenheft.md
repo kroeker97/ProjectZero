@@ -70,6 +70,16 @@ die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch
 Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
 <img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
 
+#### User-Stories
+
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
+| Als Benutzer | Bewertungssterne vergeben | ich meine eigenen Computerspiele kurz bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
+| Als Benutzer | Bewertungstexte verfassen | ich meine eigenen Computerspiele ausführlich bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
+| Als Benutzer | Bewertungssterne sehen | ich individuelle sowie Durchschnittsbewertungen von Computerspielen angezeigt bekomme. |  | KANN |
+| Als Benutzer | Bewertungstexte lesen | ich Meinungen anderer Benutzer zu Computerspielen erfahre. | | KANN |
+| Als Benutzer | fremde Bewertungen pro oder contra beurteilen | ich meine Meinung dazu äußere. | | KANN |
+
 ### Gruppen
 Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunde in der Kontaktliste; Da man die Option hat, die Gruppe auf "Öffentlich" zu stellen, sodass jeder Benutzer beitreten kann.
 Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von einem berechtigten Mitglied der Gruppe eingeladen werden.
