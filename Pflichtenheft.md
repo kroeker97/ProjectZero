@@ -76,9 +76,14 @@ Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach
 |-------|----------------------------|---------|-----------|-----------|
 | Als Benutzer | Bewertungssterne vergeben | ich meine eigenen Computerspiele kurz bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
 | Als Benutzer | Bewertungstexte verfassen | ich meine eigenen Computerspiele ausführlich bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
-| Als Benutzer | Bewertungssterne sehen | ich individuelle sowie Durchschnittsbewertungen von Computerspielen angezeigt bekomme. |  | KANN |
+| Als Benutzer | Bewertungssterne sehen | ich individuelle sowie Durchschnittsbewertungen von Computerspielen angezeigt bekomme. | | KANN |
 | Als Benutzer | Bewertungstexte lesen | ich Meinungen anderer Benutzer zu Computerspielen erfahre. | | KANN |
 | Als Benutzer | fremde Bewertungen pro oder contra beurteilen | ich meine Meinung dazu äußere. | | KANN |
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Bewertungsfunktion_Use-Case-Diagramm.png" width="1000">
+<br>
 
 ### Gruppen
 Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunde in der Kontaktliste; Da man die Option hat, die Gruppe auf "Öffentlich" zu stellen, sodass jeder Benutzer beitreten kann.
