@@ -59,6 +59,12 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 | Als Benutzer | wissen wer das aktuell ausgewählte Spiel spielt | ich das Spiel gemeinsam mit Freunden spielen kann  | bei jedem Spiel werden 0-n Freunde angezeigt, die das Spiel aktuell spielen | Soll |
 | Als Benutzer | die Beschreibung lesen                          | ich weiß worum es in dem Spiel geht                | eine Beschreibung angezeigt wird                                            | Kann  |
 
+#### Use-Case-Diagramm
+<br>
+<img src="./images/usecase_spielebibliothek.png" width="1000">
+<br>
+
+
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt.
 Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt.
