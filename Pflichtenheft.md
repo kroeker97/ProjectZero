@@ -235,6 +235,11 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 |Als Notizenersteller|Mitgliedern die Bearbeitung der Notiz erlauben|auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
 |Als Mitglied|die Farbe mit der mein Text hinterlegt ist auswählen|ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|KANN|
 
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Use-Case-Notizen.png" width="1000">
+<br>
+
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
 
