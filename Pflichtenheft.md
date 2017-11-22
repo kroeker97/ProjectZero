@@ -160,14 +160,19 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 #### User-Stories
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
-|Als Benutzer|möchte ich sehen, wer im Chat mitliest und geschrieben hat|so dass ich weiß, wer beteiligt ist.||MUSS|
-|Als Benutzer|möchte ich meinem Chatraum einen Namen geben können|so dass ich meine Chaträume auseinanderhalten kann.||MUSS|
-|Als Benutzer|möchte ich Nutzer stumm schalten können|so dass mich störende Benutzer nicht weiter belästigen können.||MUSS|
-|Als Benutzer|möchte ich bei neuen Nachrichten benachrichtigt werden|so dass ich immer auf dem aktuellen Stand bin.||MUSS|
-|Als Benutzer|möchte ich Benutzer als Freund hinzufügen können|so dass ich alle meine Kontakte in meiner Freundesliste habe.||MUSS|
-|Als Benutzer|möchte ich Benutzern eine einzigartige Farbe zuweisen können|so dass ich sie auseinander halten kann.||MUSS|
-|Als Chatadmin|möchte ich andere Nutzer hinzufügen und entfernen können|so dass ich die Kontrolle über die Teilnehmer behalte.||MUSS|
+|Als Benutzer|Nachrichten verschicken|ich mich mit anderen Benutzern unterhalten kann.|Nachrichten können an Benutzer verschickt werden, wenn eine Freundschaft bestätigt wurde.|MUSS|
+|Als Benutzer|ich sehen, wer im Chat mitliest und geschrieben hat|ich weiß, wer beteiligt ist.|Eine Liste aller aktiver Chatteilnehmer ist verfügbar. Bei jeder Nachricht wird der Verfasser und die Uhrzeit der Nachricht angezeigt|MUSS|
+|Als Benutzer|meinem Chatraum einen Namen geben können|ich meine Chaträume auseinanderhalten kann.|Chaträume können umbenannt werden.|MUSS|
+|Als Benutzer|Benutzer stumm schalten können|mich störende Benutzer nicht weiter belästigen können.|Benutzer können blockiert werden.|MUSS|
+|Als Benutzer|bei neuen Nachrichten benachrichtigt werden|ich immer auf dem aktuellen Stand bin.|Wenn eine Nachricht in einem Chat gesendet wird, werden alle anderen Benutzer benachrichtigt.|MUSS|
+|Als Benutzer|Benutzer als Freund hinzufügen können|ich alle meine Kontakte in meiner Freundesliste habe.|Jeder Benutzer kann über sein Profil eine Freundschaftsanfrage gesendet werden.|MUSS|
+|Als Benutzer|Benutzern eine einzigartige Farbe zuweisen können|ich sie auseinander halten kann.|Jedem Benutzer kann im Chat eine Farbe einzigartige Farbe zugewiesen werden.|MUSS|
+|Als Chatadmin|andere Benutzer hinzufügen und entfernen können|ich die Kontrolle über die Teilnehmer behalte.|Der Chatadmin kann Benutzer hinzufügen sowie entfernen.|MUSS|
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Chaträume_Use-Case-Diagramm.png" width="1000">
+<br>
 
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
