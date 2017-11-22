@@ -28,7 +28,7 @@ Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort get
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
 ### User-Story: Registrierung und Anmeldung
-In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem 
+In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
 Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
 
@@ -69,6 +69,21 @@ Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer,
 die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  
 Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
 <img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
+
+#### User-Stories
+
+| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
+|-------|----------------------------|---------|-----------|-----------|
+| Als Benutzer | Bewertungssterne vergeben | ich meine eigenen Computerspiele kurz bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
+| Als Benutzer | Bewertungstexte verfassen | ich meine eigenen Computerspiele ausführlich bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
+| Als Benutzer | Bewertungssterne sehen | ich individuelle sowie Durchschnittsbewertungen von Computerspielen angezeigt bekomme. | | KANN |
+| Als Benutzer | Bewertungstexte lesen | ich Meinungen anderer Benutzer zu Computerspielen erfahre. | | KANN |
+| Als Benutzer | fremde Bewertungen pro oder contra beurteilen | ich meine Meinung dazu äußere. | | KANN |
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Bewertungsfunktion_Use-Case-Diagramm.png" width="1000">
+<br>
 
 ### Gruppen
 Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunde in der Kontaktliste; Da man die Option hat, die Gruppe auf "Öffentlich" zu stellen, sodass jeder Benutzer beitreten kann.
@@ -145,14 +160,19 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 #### User-Stories
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
-|Als Benutzer|möchte ich sehen, wer im Chat mitliest und geschrieben hat|so dass ich weiß, wer beteiligt ist.||MUSS|
-|Als Benutzer|möchte ich meinem Chatraum einen Namen geben können|so dass ich meine Chaträume auseinanderhalten kann.||MUSS|
-|Als Benutzer|möchte ich Nutzer stumm schalten können|so dass mich störende Benutzer nicht weiter belästigen können.||MUSS|
-|Als Benutzer|möchte ich bei neuen Nachrichten benachrichtigt werden|so dass ich immer auf dem aktuellen Stand bin.||MUSS|
-|Als Benutzer|möchte ich Benutzer als Freund hinzufügen können|so dass ich alle meine Kontakte in meiner Freundesliste habe.||MUSS|
-|Als Benutzer|möchte ich Benutzern eine einzigartige Farbe zuweisen können|so dass ich sie auseinander halten kann.||MUSS|
-|Als Chatadmin|möchte ich andere Nutzer hinzufügen und entfernen können|so dass ich die Kontrolle über die Teilnehmer behalte.||MUSS|
+|Als Benutzer|Nachrichten verschicken|ich mich mit anderen Benutzern unterhalten kann.|Nachrichten können an Benutzer verschickt werden, wenn eine Freundschaft bestätigt wurde.|MUSS|
+|Als Benutzer|ich sehen, wer im Chat mitliest und geschrieben hat|ich weiß, wer beteiligt ist.|Eine Liste aller aktiver Chatteilnehmer ist verfügbar. Bei jeder Nachricht wird der Verfasser und die Uhrzeit der Nachricht angezeigt|MUSS|
+|Als Benutzer|meinem Chatraum einen Namen geben können|ich meine Chaträume auseinanderhalten kann.|Chaträume können umbenannt werden.|MUSS|
+|Als Benutzer|Benutzer stumm schalten können|mich störende Benutzer nicht weiter belästigen können.|Benutzer können blockiert werden.|MUSS|
+|Als Benutzer|bei neuen Nachrichten benachrichtigt werden|ich immer auf dem aktuellen Stand bin.|Wenn eine Nachricht in einem Chat gesendet wird, werden alle anderen Benutzer benachrichtigt.|MUSS|
+|Als Benutzer|Benutzer als Freund hinzufügen können|ich alle meine Kontakte in meiner Freundesliste habe.|Jeder Benutzer kann über sein Profil eine Freundschaftsanfrage gesendet werden.|MUSS|
+|Als Benutzer|Benutzern eine einzigartige Farbe zuweisen können|ich sie auseinander halten kann.|Jedem Benutzer kann im Chat eine Farbe einzigartige Farbe zugewiesen werden.|MUSS|
+|Als Chatadmin|andere Benutzer hinzufügen und entfernen können|ich die Kontrolle über die Teilnehmer behalte.|Der Chatadmin kann Benutzer hinzufügen sowie entfernen.|MUSS|
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Chaträume_Use-Case-Diagramm.png" width="1000">
+<br>
 
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
@@ -207,13 +227,18 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 #### User-Stories
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|möchte ich Notizen anlegen|so dass ich wichtige Informationen immer im Blick habe.||MUSS|
-|Als Benutzer|möchte ich vorhandene Notizen bearbeiten|so dass ich bei kleinen Änderungen keine neue Notiz anlegen muss.||MUSS|
-|Als Benutzer|möchte ich Notizen einen Titel geben|so dass ich meine Notizen auseinanderhalten kann.|Der Titel soll über der eigentlichen Notiz dauerhaft angezeigt werden.|MUSS|
-|Als Benutzer|möchte ich unter meinen verschiedenen Notizen auswählen|so dass ich aussuchen kann, welche ich einsehen will.|Die Notizen werden nur in Form ihrer Titel aufgelistet um daraus auswählen zu können.|SOLL|
-|Als Notizenersteller|möchte ich meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen|so dass andere meine Notizen sehen können.|Mitglieder werden neben der eigentlichen Notiz aufgeführt.|MUSS|
-|Als Notizenersteller|möchte ich Mitgliedern die Bearbeitung der Notiz erlauben|so dass auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
-|Als Mitglied|möchte ich die Farbe mit der mein Text hinterlegt ist auswählen|so dass ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|SOLL|
+|Als Benutzer|Notizen anlegen|ich wichtige Informationen immer im Blick habe.||MUSS|
+|Als Benutzer|vorhandene Notizen bearbeiten|ich bei kleinen Änderungen keine neue Notiz anlegen muss.||MUSS|
+|Als Benutzer|Notizen einen Titel geben|ich meine Notizen auseinanderhalten kann.|Der Titel soll über der eigentlichen Notiz dauerhaft angezeigt werden.|MUSS|
+|Als Benutzer|unter meinen verschiedenen Notizen auswählen|ich aussuchen kann, welche ich einsehen will.|Die Notizen werden nur in Form ihrer Titel aufgelistet um daraus auswählen zu können.|MUSS|
+|Als Notizenersteller|meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen|andere meine Notizen sehen können.|Mitglieder werden neben der eigentlichen Notiz aufgeführt.|SOLL|
+|Als Notizenersteller|Mitgliedern die Bearbeitung der Notiz erlauben|auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
+|Als Mitglied|die Farbe mit der mein Text hinterlegt ist auswählen|ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|KANN|
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Use-Case-Notizen.png" width="1000">
+<br>
 
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
