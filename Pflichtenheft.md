@@ -27,6 +27,9 @@ Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
+### Usecase: Registrierung und Anmeldung
+<img src="./images/Registrierung und Anmeldung - Usecase.png" id="img_usecase_registrierung_anmeldung" width="360"> <img 
+
 ### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
