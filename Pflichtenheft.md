@@ -184,6 +184,7 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/Freundesliste_Mobile.png" width="280">
 
 #### User-Stories
+
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
 |Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
@@ -219,6 +220,10 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 | Als Gruppen-Admin| Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
 | Als Gruppenmitglied | die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. || MUSS |
 | Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| SOLL |
+
+#### Use-Case
+
+<img src="./images/UseCase/usecaseTerminplaner.png" width="700">
 
 
 ### Notizen
