@@ -180,7 +180,7 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Chaträume_Use-Case-Diagramm.png" width="1000">
+<img src="./images/UseCase/Pflichtenheft_Chaträume_Use-Case-Diagramm.png" width="1000">
 <br>
 
 ### Freundesliste
