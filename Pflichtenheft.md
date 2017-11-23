@@ -138,7 +138,7 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
 
 <br>
-<img src="./images/UseCase/Gruppen_Usecase.png" width="1000">
+<img src="./images/usecase/Gruppen_Usecase.png" width="500">
 <br>
 
 ### Chaträume
