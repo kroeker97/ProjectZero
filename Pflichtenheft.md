@@ -89,7 +89,7 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Bewertungsfunktion_Use-Case-Diagramm.png" width="1000">
+<img src="./images/UseCaseBewertung_Bearbeitet.png" width="1000">
 <br>
 
 ### Gruppen
