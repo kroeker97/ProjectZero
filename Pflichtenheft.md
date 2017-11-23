@@ -27,6 +27,9 @@ Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
+### Usecase: Registrierung und Anmeldung
+<img src="./images/Registrierung und Anmeldung - Usecase.png" id="img_usecase_registrierung_anmeldung" width="360"> <img 
+
 ### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
@@ -58,6 +61,12 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 | Als Benutzer | gekaufte Spiele einlösen                        | ich sie meiner Bibliothek hinzuzufügen             | es einen Menüpunkt gibt, mit dem man Spiele aktivieren kann                 | Muss   |
 | Als Benutzer | wissen wer das aktuell ausgewählte Spiel spielt | ich das Spiel gemeinsam mit Freunden spielen kann  | bei jedem Spiel werden 0-n Freunde angezeigt, die das Spiel aktuell spielen | Soll |
 | Als Benutzer | die Beschreibung lesen                          | ich weiß worum es in dem Spiel geht                | eine Beschreibung angezeigt wird                                            | Kann  |
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/usecase_spielebibliothek.png" width="1000">
+<br>
+
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt.
@@ -181,6 +190,7 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/Freundesliste_Mobile.png" width="280">
 
 #### User-Stories
+
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
 |Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
@@ -217,6 +227,10 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 | Als Gruppenmitglied | die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. || MUSS |
 | Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| SOLL |
 
+#### Use-Case
+
+<img src="./images/UseCase/usecaseTerminplaner.png" width="700">
+
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
@@ -234,6 +248,11 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 |Als Notizenersteller|meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen|andere meine Notizen sehen können.|Mitglieder werden neben der eigentlichen Notiz aufgeführt.|SOLL|
 |Als Notizenersteller|Mitgliedern die Bearbeitung der Notiz erlauben|auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
 |Als Mitglied|die Farbe mit der mein Text hinterlegt ist auswählen|ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|KANN|
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/Use-Case-Notizen.png" width="1000">
+<br>
 
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
