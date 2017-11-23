@@ -34,12 +34,15 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 
 | Rolle | möchte ich... | so dass... | Akzeptanz | Priorität |
 |-------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Kunde | mich registrieren können | ich mit anmelden kann | Bei der Registrierung muss ein Benutzername, eine Email-Adresse und ein Passwort angegeben worden sein | MUSS |
-| Kunde | mich mit meinem Benutzernamen ODER Email anmelden können | ich meine Nutzerfunktionen ausschöpfen kann | Bei der Anmeldung muss entweder der Benutzername oder die Email angegeben werden. Zusätzlich muss das entsprechende Passwort eingegeben werden | MUSS |
-| Kunde | mein Passwort bei der Registrierung wiederholt eingeben | ich bei einem möglichen Tippfehler kein "falsches" Passwort erstelle | Das Passwort wird bei der Registrierung in zwei Textfeldern wiederholt eingegeben | MUSS |
-| Kunde | mein Passwort zurücksetzen können | ich mein "verlorenes" Passwort und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Passwort-vergessen" Button kann man mit Hilfe einer "Reaktivierungs"-Email das entsprechende Passwort zurücksetzen lassen; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
-| Kunde | mein Benutzernamen "nachfragen" können | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
-| Kunde | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN |
+| Als Benutzer | mich registrieren können | ich mit anmelden kann | Bei der Registrierung muss ein Benutzername, eine Email-Adresse und ein Passwort angegeben worden sein | MUSS |
+| Als Benutzer | mich mit meinem Benutzernamen ODER Email anmelden können | ich meine Nutzerfunktionen ausschöpfen kann | Bei der Anmeldung muss entweder der Benutzername oder die Email angegeben werden. Zusätzlich muss das entsprechende Passwort eingegeben werden | MUSS |
+| Als Benutzer | mein Passwort bei der Registrierung wiederholt eingeben | ich bei einem möglichen Tippfehler kein "falsches" Passwort erstelle | Das Passwort wird bei der Registrierung in zwei Textfeldern wiederholt eingegeben | MUSS |
+| Als Benutzer | mein Passwort zurücksetzen können | ich mein "verlorenes" Passwort und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Passwort-vergessen" Button kann man mit Hilfe einer "Reaktivierungs"-Email das entsprechende Passwort zurücksetzen lassen; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
+| Als Benutzer | mein Benutzernamen "nachfragen" können | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
+| Als Benutzer | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN |
+
+### Usecase: Registrierung und Anmeldung
+<img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -177,7 +180,7 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Chaträume_Use-Case-Diagramm.png" width="1000">
+<img src="./images/UseCase/Pflichtenheft_Chaträume_Use-Case-Diagramm.png" width="1000">
 <br>
 
 ### Freundesliste
@@ -187,9 +190,9 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/Freundesliste_Mobile.png" width="280">
 
 #### User-Stories
+
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|möchte ich Nachrichten verschicken|so dass ich mich mit anderen Benutzern unterhalten kann.||MUSS|
 |Als Benutzer|Freunde meiner Freundesiste hinzufügen,|ich sie in meiner Freundesliste sehen kann.|Auftauchen des hinzugefügten Benutzers in der Freundesliste.|MUSS|
 |Als Benutzer|Freunde von meiner Freundesliste entfernen,|sie nicht mehr in der Freundesliste sind.|Freund ist nicht mehr in der Freundesliste|MUSS|
 |Als Benutzer|einen Status haben und den von anderen Benutzern sehen,|ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin.|Sichtbarer Status.|MUSS|
@@ -199,6 +202,11 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 |Als Benutzer|Gruppen erstellen können,|ich mich mit anderen Freunden in einer Gruppe zusammenschließen kann.|Gruppen können erstellt werden.|MUSS|
 |Als Gruppenersteller|Gruppen löschen können,|inaktive Gruppen entfernt werden können.|Gruppen können entfernt werden.|MUSS|
 |Als Benutzer|Freunde in eine Gruppe einladen können,|ich in der selben Gruppe mit ihnen bin.|Gruppeneinladngen müssen funktionieren|MUSS|
+
+#### Use-Case-Diagramm
+<br>
+<img src="./images/usecase_freundesliste.png" width="1000">
+<br>
 
 ### Terminplaner
 
@@ -222,6 +230,10 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 | Als Gruppen-Admin| Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
 | Als Gruppenmitglied | die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. || MUSS |
 | Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| SOLL |
+
+#### Use-Case
+
+<img src="./images/UseCase/usecaseTerminplaner.png" width="700">
 
 
 ### Notizen
