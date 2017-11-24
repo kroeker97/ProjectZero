@@ -13,7 +13,7 @@ Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Terminplaner
 * Spielebibliothek
 * Gruppen/Freunde (Community)
-* Registrierung und Anmeldung oder Abmeldung 
+* Registrierung und Anmeldung oder Abmeldung
 #### Mockups Navigationsleiste
 <img src="./images/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Navigation_Mobile.png" id="img_nav_mobil" width="400">
 
@@ -25,7 +25,7 @@ Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.
 <img src="./images/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Registration_Mobile.png" id="img_reg_mobil" width="130">
 
 ### Anmeldung
-Jede Person die sich erfolgreich registriert hat, kann sich anmelden. 
+Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 #### Mockups  Anmeldung
 <img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
@@ -105,13 +105,13 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 
 #### Mockups Gruppenprofil
 <img src="./images/Groups_Profile_Desktop.png" id="img_group_prof_desk" width="280"><img src="./images/Groups_Profile_Web.png" id="img_group_prof_web" width="255"><img src="./images/Groups_Profile_Mobile.png" id="img_group_prof_mobil" width="290">
-#### Mockups Gruppenforum 
+#### Mockups Gruppenforum
 <img src="./images/Groups_Forum_Desktop.png" id="img_group_forum_desk" width="280"><img src="./images/Groups_Forum_Web.png" id="img_group_forum_web" width="270"><img src="./images/Groups_Forum_Mobile.png" id="img_group_forum_mobil" width="200">
-#### Mockups Forumbeitrag 
+#### Mockups Forumbeitrag
 <img src="./images/Groups_Forum_Post_Desktop.png" id="img_group_post_desk" width="280"><img src="./images/Groups_Forum_Post_Web.png" id="img_group_post_web" width="270"><img src="./images/Groups_Forum_Post_Mobile.png" id="img_group_post_mobil" width="300">
-#### Mockups Gruppenmitglieder 
+#### Mockups Gruppenmitglieder
 <img src="./images/Groups_Members_MemberView_Desktop.png" id="img_group_members_desk" width="280"><img src="./images/Groups_Members_MemberView_Web.png" id="img_group_members_web" width="275"><img src="./images/Groups_Members_MemberView_Mobile.png" id="img_group_members_mobil" width="100">
-#### Mockups Gruppenmitglieder (Adminsicht) 
+#### Mockups Gruppenmitglieder (Adminsicht)
 <img src="./images/Groups_Members_AdminView_Desktop.png" id="img_group_admin_desk" width="280"><img src="./images/Groups_Members_AdminView_Web.png" id="img_group_admin_web" width="265"><img src="./images/Groups_Members_AdminView_Mobile.png" id="img_group_admin_mobil" width="120">
 
 #### Gruppenrollen
@@ -242,7 +242,7 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Use-Case-Notizen.png" width="1000">
+<img src="./images/UseCase/Use-Case-Notizen.png" width="1000">
 <br>
 
 ### Frontend
