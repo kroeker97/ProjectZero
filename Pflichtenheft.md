@@ -137,8 +137,10 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Als Gruppenmitglied                     | meine Kommentare and Unterthemen senden  | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt   | SOLL      |
 | Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
 
+#### Use-Case-Diagramm
+
 <br>
-<img src="./images/usecase/Gruppen_Usecase.png" width="500">
+<img src="./images/usecase/Gruppen_Usecase.png" width="800">
 <br>
 
 ### Chaträume
