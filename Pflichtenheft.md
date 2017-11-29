@@ -409,7 +409,7 @@ Kalender, der Termine für sämtliche Veranstaltungen und Ereignisse enthält. D
   - Privat: [Web](#img_chat_public_web), [Desktop](#img_chat_public_desk), [Mobil](#img_chat_public_mobil)
 - Freundesliste: [Web](#img_friends_web), [Desktop](#img_friends_desk), [Mobil](#img_friends_mobil)
 - Gruppen
-  - Profil: [Web](#img_group_profil_web), [Desktop](#img_group_profil_desk), [Mobil](#img_group_profil_mobil)
+  - Profil: [Web](#img_group_prof_web), [Desktop](#img_group_prof_desk), [Mobil](#img_group_prof_mobil)
   - Forum:  [Web](#img_group_forum_web), [Desktop](#img_group_forum_desk), [Mobil](#img_group_forum_mobil)
   - Mitglieder:  [Web](#img_group_members_web), [Desktop](#img_group_members_desk), [Mobil](#img_group_members_mobil)
   - Admin:  [Web](#img_group_admin_web), [Desktop](#img_group_admin_desk), [Mobil](#img_group_admin_mobil)
