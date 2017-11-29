@@ -179,21 +179,21 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/Freundesliste_Desktop.png" id="img_friends_desk" width="200"><img src="./images/Freundesliste_Browser.png" id="img_friends_web" width="360"><img src="./images/Freundesliste_Mobile.png" id="img_friends_mobil" width="160">
 
 #### User-Stories
-| Rolle                | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
-| -------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
-| Als Benutzer         | Freunde meiner Freundesiste hinzufügen,  | ich sie in meiner Freundesliste sehen kann. | Auftauchen des hinzugefügten Benutzers in der Freundesliste. | MUSS      |
-| Als Benutzer         | Freunde von meiner Freundesliste entfernen, | sie nicht mehr in der Freundesliste sind. | Freund ist nicht mehr in der Freundesliste | MUSS      |
-| Als Benutzer         | einen Status haben und den von anderen Benutzern sehen, | ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin. | Sichtbarer Status.                       | MUSS      |
-| Als Benutzer         | Statis in verschiedenen Farben sehen,    | ich sie besser unterscheiden kann.       | Verschiedenfarbige Statis.               | SOLL      |
-| Als Benutzer         | die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen, | andere Benutzer daran teilhaben können.  | Aktivitäten werden angezeigt.            | SOLL      |
-| Als Benutzer         | einen Privatchat mit Freunden öffnen können, | ich mich mit ihnen unterhalten kann.     | Funktionierender Privatchat              | MUSS      |
-| Als Benutzer         | Gruppen erstellen können,                | ich mich mit anderen Freunden in einer Gruppe zusammenschließen kann. | Gruppen können erstellt werden.          | MUSS      |
-| Als Gruppenersteller | Gruppen löschen können,                  | inaktive Gruppen entfernt werden können. | Gruppen können entfernt werden.          | MUSS      |
-| Als Benutzer         | Freunde in eine Gruppe einladen können,  | ich in der selben Gruppe mit ihnen bin.  | Gruppeneinladngen müssen funktionieren   | MUSS      |
+| Rolle        | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer | Freunde meiner Freundesiste hinzufügen,  | ich sie in meiner Freundesliste sehen kann. | Auftauchen des hinzugefügten Benutzers in der Freundesliste. | MUSS      |
+| Als Benutzer | Freunde von meiner Freundesliste entfernen, | sie nicht mehr in der Freundesliste sind. | Freund ist nicht mehr in der Freundesliste | MUSS      |
+| Als Benutzer | einen Status haben und den von anderen Benutzern sehen, | ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin. | Sichtbarer Status.                       | MUSS      |
+| Als Benutzer | Statis in verschiedenen Farben sehen,    | ich sie besser unterscheiden kann.       | Verschiedenfarbige Statis.               | SOLL      |
+| Als Benutzer | die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen, | andere Benutzer daran teilhaben können.  | Aktivitäten werden angezeigt.            | SOLL      |
+| Als Benutzer | einen Privatchat mit Freunden öffnen können, | ich mich mit ihnen unterhalten kann.     | Funktionierender Privatchat              | MUSS      |
+| Als Benutzer | Gruppierungen erstellen können,          | ich eine bessere Übersicht über meine Freunde habe. | Gruppierungen können erstellt werden.    | MUSS      |
+| Als Benutzer | Gruppierungen entfernen können,          | nicht verwendete Gruppierungen gelöscht werden können. | Gruppierungen können entfernt werden.    | MUSS      |
+| Als Benutzer | Freunde einer Gruppierung hinzufügen,    | ich neue Freunde gruppieren kann.        | Freunde können einer Gruppierung hinzugefügt werden | MUSS      |
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/usecase_freundesliste.png" width="1000">
+<img src="./images/UseCase/usecase_freundesliste.png" width="1000">
 <br>
 
 ### Terminplaner
