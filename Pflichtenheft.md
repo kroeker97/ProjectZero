@@ -222,7 +222,11 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 
 #### Use-Case
 
-<img src="./images/UseCase/usecaseTerminplaner.png" width="700">
+<img src="./images/UseCase/usecaseTerminplaner.png" width="800">
+
+#### Aktivitätsdiagramm 
+
+<img src="./images/Aktivitätsdiagramme/terminErstellen.png" width="800">
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
