@@ -5,7 +5,7 @@
 
 Community-Plattform für Computerspiele
 
-### Navigationsleiste
+#### Navigationsleiste
 Die Navigationsleiste ist allen anderen Funktionen übergeordnet, wird oben auf jeder Seite angezeigt. Sie wird also über jedem Objekt dargestellt.
 Sie beinhaltet die wichtigsten Verweise. Ein Verweis auf die Registrierung, Anmeldung oder Abmeldung.
 Ihr Inhalt der Navigationsleiste lautet wie folgt:
@@ -30,7 +30,7 @@ Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort get
 #### Mockups  Anmeldung
 <img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
 
-### User-Story: Registrierung und Anmeldung
+#### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
 Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
@@ -44,7 +44,7 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 | Als Benutzer | mein Benutzernamen "nachfragen" können   | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL      |
 | Als Benutzer | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann   | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN      |
 
-### Usecase: Registrierung und Anmeldung
+#### Usecase: Registrierung und Anmeldung
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 ### Spielebibliothek
