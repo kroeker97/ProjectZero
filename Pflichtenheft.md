@@ -27,7 +27,7 @@ Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 <img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
 
-### User-Story: Registrierung und Anmeldung
+#### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
 Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
@@ -41,8 +41,12 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 | Als Benutzer | mein Benutzernamen "nachfragen" können | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
 | Als Benutzer | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN |
 
-### Usecase: Registrierung und Anmeldung
+#### Usecase: Registrierung und Anmeldung
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
+
+#### Aktivitätsdiagramme Registrierung und Anmeldung
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -51,7 +55,7 @@ Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Sp
 eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.  
 <img src="./images/Library_Web2.png" width="400"> <img src="./images/Library_Desktop.png" width="380">
 
-### User-Stories
+#### User-Stories
 
 | Rolle        | In meiner Rolle möchte ich                      | so dass                                            | Akzeptanz                                                                   | Priorität  |
 |--------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------|------------|
@@ -67,6 +71,8 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <img src="./images/usecase_spielebibliothek.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm Spiel anzeigen
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt.
@@ -133,7 +139,7 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
 | Mitglied | Beim Beitritt in die Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
-### User-Stories
+#### User-Stories
 
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
