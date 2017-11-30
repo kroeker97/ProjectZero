@@ -1,4 +1,4 @@
-## Pflichtenheft
+﻿## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
@@ -149,6 +149,10 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 <br>
 <img src="./images/usecase/Gruppen_Usecase.png" width="800">
 <br>
+
+#### Aktivitätsdiagramme
+
+<img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
