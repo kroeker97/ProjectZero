@@ -247,6 +247,11 @@ Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer
 <img src="./images/UseCase/Use-Case-Notizen.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/Notizen-Aktivität.png" width="1000">
+<br>
+
 ### Frontend
  **Clientbeschreibungen für ProjectZero**
 
