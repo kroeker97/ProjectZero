@@ -205,6 +205,7 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <br>
 <img src="./images/UseCase/Pflichtenheft_Chaträume_Use-Case-Diagramm.png" width="1000">
 <br>
+
 #### Aktivitätsdiagramm
 <br>
 <img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm_Chaträume.png" width="1000">
