@@ -1,5 +1,20 @@
 # ProjectZero
 
-## Hinweis zu Pull-Requests
+Projektarbeit zur Vorlesung **Software Engineering**
 
-Bitte stellt sicher, dass euer privates Repository auf dem aktuellsten Stand ist bevor ihr einen Pull-Request öffnet. Ansonsten kommt es schnell zu einem Konflikt und wir Admins sind in der Regel nicht die Personen, die am bessten Entscheiden können welche Version richtig ist.
+Fachhochschule Minden
+
+Wintersemster 2017/2018
+
+[Homepage](https://pr0jectzer0.github.io/ProjectZero/)
+
+
+
+## Umgang mit Git und Github
+
+Einige Links zu ausgewählten Themen:
+
+- [Forken](https://help.github.com/articles/fork-a-repo/)
+- [Pull-Requests](https://help.github.com/articles/about-pull-requests/)
+- [Merge Konflikte beheben](https://www.ralfebert.de/git/mergekonflikte-beheben/)
+- [Fork aktuell halten](https://help.github.com/articles/syncing-a-fork/)

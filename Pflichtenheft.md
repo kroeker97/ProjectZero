@@ -1,97 +1,102 @@
-﻿## Pflichtenheft
+## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
 
 Community-Plattform für Computerspiele
 
-### Navigationsleiste
-Die Navigationsleiste ist allen anderen Objekten übergeordnet. Sie wird also über jedem Objekt dargestellt.
+#### Navigationsleiste
+Die Navigationsleiste ist allen anderen Funktionen übergeordnet, wird oben auf jeder Seite angezeigt. Sie wird also über jedem Objekt dargestellt.
 Sie beinhaltet die wichtigsten Verweise. Ein Verweis auf die Registrierung, Anmeldung oder Abmeldung.
 Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Logo der Plattform (Verweis auf die Startseite)
 * Terminplaner
 * Spielebibliothek
 * Gruppen/Freunde (Community)
-* Registrierung und Anmeldung oder Abmeldung  
-<img src="./images/Navigation.png" width="400"><img src="./images/Navigation_Mobile.png" width="400">
+* Registrierung und Anmeldung oder Abmeldung
+#### Mockups Navigationsleiste
+<img src="./images/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Navigation_Mobile.png" id="img_nav_mobil" width="400">
 
 ### Registrierung
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung.
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
-Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.  
-<img src="./images/Registration_Web.png" width="340"> <img src="./images/Registration_Desktop.png" width="320"> <img src="./images/Registration_Mobile.png" width="180">
+Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.
+#### Mockups Registrierung
+<img src="./images/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Registration_Mobile.png" id="img_reg_mobil" width="130">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
-<img src="./images/Login_Web.png" width="340"> <img src="./images/Login_Desktop.png" width="350"> <img src="./images/Login_Mobile.png" width="180">
+#### Mockups  Anmeldung
+<img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
 
-### User-Story: Registrierung und Anmeldung
+#### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
 Benutzernamen/Email und Passwort regestrieren und einloggen können.
 Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort angegeben werden.
 
-| Rolle | möchte ich... | so dass... | Akzeptanz | Priorität |
-|-------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| Als Benutzer | mich registrieren können | ich mit anmelden kann | Bei der Registrierung muss ein Benutzername, eine Email-Adresse und ein Passwort angegeben worden sein | MUSS |
-| Als Benutzer | mich mit meinem Benutzernamen ODER Email anmelden können | ich meine Nutzerfunktionen ausschöpfen kann | Bei der Anmeldung muss entweder der Benutzername oder die Email angegeben werden. Zusätzlich muss das entsprechende Passwort eingegeben werden | MUSS |
-| Als Benutzer | mein Passwort bei der Registrierung wiederholt eingeben | ich bei einem möglichen Tippfehler kein "falsches" Passwort erstelle | Das Passwort wird bei der Registrierung in zwei Textfeldern wiederholt eingegeben | MUSS |
-| Als Benutzer | mein Passwort zurücksetzen können | ich mein "verlorenes" Passwort und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Passwort-vergessen" Button kann man mit Hilfe einer "Reaktivierungs"-Email das entsprechende Passwort zurücksetzen lassen; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
-| Als Benutzer | mein Benutzernamen "nachfragen" können | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL |
-| Als Benutzer | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN |
+| Rolle        | möchte ich...                            | so dass...                               | Akzeptanz                                | Priorität |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer | mich registrieren können                 | ich mit anmelden kann                    | Bei der Registrierung muss ein Benutzername, eine Email-Adresse und ein Passwort angegeben worden sein | MUSS      |
+| Als Benutzer | mich mit meinem Benutzernamen ODER Email anmelden können | ich meine Nutzerfunktionen ausschöpfen kann | Bei der Anmeldung muss entweder der Benutzername oder die Email angegeben werden. Zusätzlich muss das entsprechende Passwort eingegeben werden | MUSS      |
+| Als Benutzer | mein Passwort bei der Registrierung wiederholt eingeben | ich bei einem möglichen Tippfehler kein "falsches" Passwort erstelle | Das Passwort wird bei der Registrierung in zwei Textfeldern wiederholt eingegeben | MUSS      |
+| Als Benutzer | mein Passwort zurücksetzen können        | ich mein "verlorenes" Passwort und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Passwort-vergessen" Button kann man mit Hilfe einer "Reaktivierungs"-Email das entsprechende Passwort zurücksetzen lassen; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL      |
+| Als Benutzer | mein Benutzernamen "nachfragen" können   | ich mein "verlorenen" Benutzernamen und somit meinen Zugriff auf mein Konto wieder bekommen kann | Durch ein Klick auf den "Benutzernamen-vergessen" Button kann man mit Hilfe der Email-Adresse den Benutzernamen an die angegebene Email senden; vorausgesetzt die angegebene Email-Adresse besitzt ein bereits erstelltes Konto | SOLL      |
+| Als Benutzer | meine persönlichen Daten wie z.B. Adresse, Stadt etc. bei der Registrierung angeben | man mich einfacher identifizieren kann   | Bei der Registrierung gibt es Textfelder zu persönlichen Daten wie z.B. Adresse, Stadt etc. die ausgefüllt werden können und im Profil ersichtlich sind | KANN      |
 
-### Usecase: Registrierung und Anmeldung
+#### Usecase: Registrierung und Anmeldung
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
+
+#### Aktivitätsdiagramme Registrierung und Anmeldung
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
 Diese können dann aus der Spielebibliothek gestartet werden.
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung,
-eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.  
-<img src="./images/Library_Web2.png" width="400"> <img src="./images/Library_Desktop.png" width="380">
+eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.
+#### Mockups Spielebibliothek
+<img src="./images/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Library_Desktop.png" id="img_library_desk" width="400">
 
-### User-Stories
+#### User-Stories
 
-| Rolle        | In meiner Rolle möchte ich                      | so dass                                            | Akzeptanz                                                                   | Priorität  |
-|--------------|-------------------------------------------------|----------------------------------------------------|-----------------------------------------------------------------------------|------------|
-| Als Benutzer | meine gekauften Spiele sehen                    | ich auf einen Blick sehe welche Spiele ich besitze | In der Spielebibliothek werden 0-n gekaufte Spiele angezeigt.               | Muss   |
-| Als Benutzer | meine Spiele auswählen                          | ich erweiterte Informationen zum Spiel bekomme     | Bei Auswahl eines Spiels wird eine erweiterte Ansicht angezeigt             | Muss   |
-| Als Benutzer | meine Spiele starten                            | ich meine Spiele spielen kann                      | Startbutton wird in der erweiterten Ansicht angezeigt                       | Muss  |
-| Als Benutzer | gekaufte Spiele einlösen                        | ich sie meiner Bibliothek hinzuzufügen             | es einen Menüpunkt gibt, mit dem man Spiele aktivieren kann                 | Muss   |
-| Als Benutzer | wissen wer das aktuell ausgewählte Spiel spielt | ich das Spiel gemeinsam mit Freunden spielen kann  | bei jedem Spiel werden 0-n Freunde angezeigt, die das Spiel aktuell spielen | Soll |
-| Als Benutzer | die Beschreibung lesen                          | ich weiß worum es in dem Spiel geht                | eine Beschreibung angezeigt wird                                            | Kann  |
+| Rolle        | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer | meine gekauften Spiele sehen             | ich auf einen Blick sehe welche Spiele ich besitze | In der Spielebibliothek werden 0-n gekaufte Spiele angezeigt. | Muss      |
+| Als Benutzer | meine Spiele auswählen                   | ich erweiterte Informationen zum Spiel bekomme | Bei Auswahl eines Spiels wird eine erweiterte Ansicht angezeigt | Muss      |
+| Als Benutzer | meine Spiele starten                     | ich meine Spiele spielen kann            | Startbutton wird in der erweiterten Ansicht angezeigt | Muss      |
+| Als Benutzer | gekaufte Spiele einlösen                 | ich sie meiner Bibliothek hinzuzufügen   | es einen Menüpunkt gibt, mit dem man Spiele aktivieren kann | Muss      |
+| Als Benutzer | wissen wer das aktuell ausgewählte Spiel spielt | ich das Spiel gemeinsam mit Freunden spielen kann | bei jedem Spiel werden 0-n Freunde angezeigt, die das Spiel aktuell spielen | Soll      |
+| Als Benutzer | die Beschreibung lesen                   | ich weiß worum es in dem Spiel geht      | eine Beschreibung angezeigt wird         | Kann      |
 
 #### Use-Case-Diagramm
 <br>
 <img src="./images/usecase_spielebibliothek.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm Spiel anzeigen
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
 
 ### Bewertungsfunktion
-Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt.
-Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt.
-Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden.
-Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen,
-indem er seine Meinung zum entsprechenden Spiel schreibt.
-Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer,
-die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  
-Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
-<img src="./images/Review_Web.png" width="300"> <img src="./images/Review_Desktop.png" width="336"> <img src="./images/Review_Mobile.png" width="230">
+Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
+
+#### Mockups Bewertungsfunktion
+<img src="./images/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Review_Mobile.png" id="img_review_mobil" width="230">
 
 #### User-Stories
 
-| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
-|-------|----------------------------|---------|-----------|-----------|
-| Als Benutzer | Bewertungssterne vergeben | ich meine eigenen Computerspiele kurz bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
-| Als Benutzer | Bewertungstexte verfassen | ich meine eigenen Computerspiele ausführlich bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN |
-| Als Benutzer | Bewertungssterne sehen | ich individuelle sowie Durchschnittsbewertungen von Computerspielen angezeigt bekomme. | | KANN |
-| Als Benutzer | Bewertungstexte lesen | ich Meinungen anderer Benutzer zu Computerspielen erfahre. | | KANN |
-| Als Benutzer | fremde Bewertungen pro oder contra beurteilen | ich meine Meinung dazu äußere. | | KANN |
+| Rolle        | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer | Bewertungssterne vergeben                | ich meine eigenen Computerspiele kurz bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN      |
+| Als Benutzer | Bewertungstexte verfassen                | ich meine eigenen Computerspiele ausführlich bewerte. | maximal 1x pro Computerspiel im eigenen Besitz | KANN      |
+| Als Benutzer | Bewertungssterne sehen                   | ich individuelle sowie Durchschnittsbewertungen von Computerspielen angezeigt bekomme. |                                          | KANN      |
+| Als Benutzer | Bewertungstexte lesen                    | ich Meinungen anderer Benutzer zu Computerspielen erfahre. |                                          | KANN      |
+| Als Benutzer | fremde Bewertungen pro oder contra beurteilen | ich meine Meinung dazu äußere.           |                                          | KANN      |
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Bewertungsfunktion_Use-Case-Diagramm.png" width="1000">
+<img src="./images/UseCase_Bewertungsfunktion.png" width="1000">
 <br>
 
 ### Gruppen
@@ -105,22 +110,46 @@ Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem 
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
 Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitglieder über einen farbigen Punkt dargestellt. Jede Farbe steht dabei für eine Aktivität: Grün - Online, Gelb - Abwesen, Rot - Offline, Blau - Im Spiel
 
-<img src="./images/Groups_Profile_Desktop.png" width="280">
-<img src="./images/Groups_Profile_Web.png" width="280">
-<img src="./images/Groups_Profile_Mobile.png" width="280">
+#### Mockups Gruppenprofil
+<img src="./images/Groups_Profile_Desktop.png" id="img_group_prof_desk" width="280"><img src="./images/Groups_Profile_Web.png" id="img_group_prof_web" width="255"><img src="./images/Groups_Profile_Mobile.png" id="img_group_prof_mobil" width="290">
+#### Mockups Gruppenforum
+<img src="./images/Groups_Forum_Desktop.png" id="img_group_forum_desk" width="280"><img src="./images/Groups_Forum_Web.png" id="img_group_forum_web" width="270"><img src="./images/Groups_Forum_Mobile.png" id="img_group_forum_mobil" width="200">
+#### Mockups Forumbeitrag
+<img src="./images/Groups_Forum_Post_Desktop.png" id="img_group_post_desk" width="280"><img src="./images/Groups_Forum_Post_Web.png" id="img_group_post_web" width="270"><img src="./images/Groups_Forum_Post_Mobile.png" id="img_group_post_mobil" width="300">
+#### Mockups Gruppenmitglieder
+<img src="./images/Groups_Members_MemberView_Desktop.png" id="img_group_members_desk" width="280"><img src="./images/Groups_Members_MemberView_Web.png" id="img_group_members_web" width="275"><img src="./images/Groups_Members_MemberView_Mobile.png" id="img_group_members_mobil" width="100">
+#### Mockups Gruppenmitglieder (Adminsicht)
+<img src="./images/Groups_Members_AdminView_Desktop.png" id="img_group_admin_desk" width="280"><img src="./images/Groups_Members_AdminView_Web.png" id="img_group_admin_web" width="265"><img src="./images/Groups_Members_AdminView_Mobile.png" id="img_group_admin_mobil" width="120">
+
+#### Gruppenrollen
+| Name        | Vergabe                            | Rechte                                   |
+| :---------- | :--------------------------------- | :--------------------------------------- |
+| Ersteller   | Beim Erstellen der Gruppe          | Alle                                     |
+| Admin       | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
+| Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
+| Mitglied    | Beim Beitritt in die Gruppe        | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
+
+#### User-Stories
+
+| Rolle                                   | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| --------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer                            | Gruppen erstellen                        | ich Freunde zur Gruppe hinzufügen kann   | Erzeugung der Gruppe                     | MUSS      |
+| Als Benutzer                            | öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS      |
+| Als Benutzer                            | Chats der Gruppe beitreten               | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern      | MUSS      |
+| Als Gruppenadmin                        | die Sichtbarkeit der Gruppe ändern       | sie Öffentlich oder Privat ist           |                                          | SOLL      |
+| Als Gruppenadmin                        | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |                                          | SOLL      |
+| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen          | Diskussionen im Forum geordneter sind    | sichtbare Oberthemen im Forum            | SOLL      |
+| Als Gruppenmitglied                     | Unterthemen im Forum erstellen           | Diskussionen angeregt werden             | sichtbare Unterthemen im Forum           | SOLL      |
+| Als Gruppenmitglied                     | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | KANN      |
+| Als Gruppenmitglied                     | meine Kommentare and Unterthemen senden  | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt   | SOLL      |
+| Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
+
+#### Use-Case-Diagramm
+
 <br>
-<img src="./images/Groups_Forum_Desktop.png" width="280">
-<img src="./images/Groups_Forum_Web.png" width="280">
-<img src="./images/Groups_Forum_Mobile.png" width="280">
+<img src="./images/usecase/Gruppen_Usecase.png" width="800">
 <br>
-<img src="./images/Groups_Forum_Post_Desktop.png" width="280">
-<img src="./images/Groups_Forum_Post_Web.png" width="280">
-<img src="./images/Groups_Forum_Post_Mobile.png" width="280">
-<br>
-<img src="./images/Groups_Members_MemberView_Desktop.png" width="280">
-<img src="./images/Groups_Members_MemberView_Web.png" width="280">
-<img src="./images/Groups_Members_MemberView_Mobile.png" width="280">
-<br>
+
 <img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
 <img src="./images/Groups_Members_AdminView_Web.png" width="280">
 <img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
@@ -133,7 +162,7 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
 | Mitglied | Beim Beitritt in die Gruppe | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
-### User-Stories
+#### User-Stories
 
 | Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
 |-------|----------------------------|---------|-----------|-----------|
@@ -153,30 +182,24 @@ Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen untersc
 Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen. Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden.
 Über die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
 Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeiter hat, kann man sich eine Farbe auswählen. Mit dieser Farbe wird der vom Benutzer geschriebene Text hinterlegt. Jede Farbe kann dabei nur von einem Benutzer verwendet werden um Verwechslungen zu vermeiden.
-<br>
-<img src="./images/Chaträume_Desktop.png" width="280">
-<img src="./images/Chaträume_Browser.png" width="280">
-<img src="./images/Chaträume_Mobile.png" width="280">
-<br>
-<img src="./images/Öffentlicher&Gruppen_Chatraum_Desktop.png" width="280">
-<img src="./images/Öffentlicher&Gruppen_Chatraum_Browser.png" width="280">
-<img src="./images/Öffentlicher&Gruppen_Chatraum_Mobile.png" width="280">
-<br>
-<img src="./images/Privatchat_Desktop.png" width="280">
-<img src="./images/Privatchat_Browser.png" width="280">
-<img src="./images/Privatchat_Mobile.png" width="280">
+#### Mockups Übersicht Chaträume
+<img src="./images/Chaträume_Desktop.png" id="img_chat_desk" width="280"><img src="./images/Chaträume_Browser.png" id="img_chat_web" width="270"><img src="./images/Chaträume_Mobile.png" id="img_chat_mobil" width="150">
+#### Mockups öffentliche & Gruppen-Chaträume
+<img src="./images/Öffentlicher&Gruppen_Chatraum_Desktop.png" id="img_chat_public_desk" width="280"><img src="./images/Öffentlicher&Gruppen_Chatraum_Browser.png" id="img_chat_public_web" width="265"><img src="./images/Öffentlicher&Gruppen_Chatraum_Mobile.png" id="img_chat_public_web" width="120">
+#### Mockups private Chaträume
+<img src="./images/Privatchat_Desktop.png" id="img_chat_private_desk" width="280"><img src="./images/Privatchat_Browser.png" id="img_chat_private_web" width="265"><img src="./images/Privatchat_Mobile.png" id="img_chat_private_mobil" width="120">
 
 #### User-Stories
-| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
-|-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|Nachrichten verschicken|ich mich mit anderen Benutzern unterhalten kann.|Nachrichten können an Benutzer verschickt werden, wenn eine Freundschaft bestätigt wurde.|MUSS|
-|Als Benutzer|ich sehen, wer im Chat mitliest und geschrieben hat|ich weiß, wer beteiligt ist.|Eine Liste aller aktiver Chatteilnehmer ist verfügbar. Bei jeder Nachricht wird der Verfasser und die Uhrzeit der Nachricht angezeigt|MUSS|
-|Als Benutzer|meinem Chatraum einen Namen geben können|ich meine Chaträume auseinanderhalten kann.|Chaträume können umbenannt werden.|MUSS|
-|Als Benutzer|Benutzer stumm schalten können|mich störende Benutzer nicht weiter belästigen können.|Benutzer können blockiert werden.|MUSS|
-|Als Benutzer|bei neuen Nachrichten benachrichtigt werden|ich immer auf dem aktuellen Stand bin.|Wenn eine Nachricht in einem Chat gesendet wird, werden alle anderen Benutzer benachrichtigt.|MUSS|
-|Als Benutzer|Benutzer als Freund hinzufügen können|ich alle meine Kontakte in meiner Freundesliste habe.|Jeder Benutzer kann über sein Profil eine Freundschaftsanfrage gesendet werden.|MUSS|
-|Als Benutzer|Benutzern eine einzigartige Farbe zuweisen können|ich sie auseinander halten kann.|Jedem Benutzer kann im Chat eine Farbe einzigartige Farbe zugewiesen werden.|MUSS|
-|Als Chatadmin|andere Benutzer hinzufügen und entfernen können|ich die Kontrolle über die Teilnehmer behalte.|Der Chatadmin kann Benutzer hinzufügen sowie entfernen.|MUSS|
+| Rolle         | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer  | Nachrichten verschicken                  | ich mich mit anderen Benutzern unterhalten kann. | Nachrichten können an Benutzer verschickt werden, wenn eine Freundschaft bestätigt wurde. | MUSS      |
+| Als Benutzer  | ich sehen, wer im Chat mitliest und geschrieben hat | ich weiß, wer beteiligt ist.             | Eine Liste aller aktiver Chatteilnehmer ist verfügbar. Bei jeder Nachricht wird der Verfasser und die Uhrzeit der Nachricht angezeigt | MUSS      |
+| Als Benutzer  | meinem Chatraum einen Namen geben können | ich meine Chaträume auseinanderhalten kann. | Chaträume können umbenannt werden.       | MUSS      |
+| Als Benutzer  | Benutzer stumm schalten können           | mich störende Benutzer nicht weiter belästigen können. | Benutzer können blockiert werden.        | MUSS      |
+| Als Benutzer  | bei neuen Nachrichten benachrichtigt werden | ich immer auf dem aktuellen Stand bin.   | Wenn eine Nachricht in einem Chat gesendet wird, werden alle anderen Benutzer benachrichtigt. | MUSS      |
+| Als Benutzer  | Benutzer als Freund hinzufügen können    | ich alle meine Kontakte in meiner Freundesliste habe. | Jeder Benutzer kann über sein Profil eine Freundschaftsanfrage gesendet werden. | MUSS      |
+| Als Benutzer  | Benutzern eine einzigartige Farbe zuweisen können | ich sie auseinander halten kann.         | Jedem Benutzer kann im Chat eine Farbe einzigartige Farbe zugewiesen werden. | MUSS      |
+| Als Chatadmin | andere Benutzer hinzufügen und entfernen können | ich die Kontrolle über die Teilnehmer behalte. | Der Chatadmin kann Benutzer hinzufügen sowie entfernen. | MUSS      |
 
 #### Use-Case-Diagramm
 <br>
@@ -184,24 +207,23 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <br>
 
 ### Freundesliste
-Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.<br>
-<img src="./images/Freundesliste_Desktop.png" width="280">
-<img src="./images/Freundesliste_Browser.png" width="280">
-<img src="./images/Freundesliste_Mobile.png" width="280">
+Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
+
+#### Mockups Freundesliste
+<img src="./images/Freundesliste_Desktop.png" id="img_friends_desk" width="200"><img src="./images/Freundesliste_Browser.png" id="img_friends_web" width="360"><img src="./images/Freundesliste_Mobile.png" id="img_friends_mobil" width="160">
 
 #### User-Stories
-
-| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
-|-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|Freunde meiner Freundesiste hinzufügen,|ich sie in meiner Freundesliste sehen kann.|Auftauchen des hinzugefügten Benutzers in der Freundesliste.|MUSS|
-|Als Benutzer|Freunde von meiner Freundesliste entfernen,|sie nicht mehr in der Freundesliste sind.|Freund ist nicht mehr in der Freundesliste|MUSS|
-|Als Benutzer|einen Status haben und den von anderen Benutzern sehen,|ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin.|Sichtbarer Status.|MUSS|
-|Als Benutzer|Statis in verschiedenen Farben sehen,|ich sie besser unterscheiden kann.|Verschiedenfarbige Statis.|SOLL|
-|Als Benutzer|die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen,|andere Benutzer daran teilhaben können.|Aktivitäten werden angezeigt.|SOLL|
-|Als Benutzer|einen Privatchat mit Freunden öffnen können,|ich mich mit ihnen unterhalten kann.|Funktionierender Privatchat|MUSS|
-|Als Benutzer|Gruppierungen erstellen können,|ich eine bessere Übersicht über meine Freunde habe.|Gruppierungen können erstellt werden.|MUSS|
-|Als Benutzer|Gruppierungen entfernen können,|nicht verwendete Gruppierungen gelöscht werden können.|Gruppierungen können entfernt werden.|MUSS|
-|Als Benutzer|Freunde einer Gruppierung hinzufügen,|ich neue Freunde gruppieren kann.|Freunde können einer Gruppierung hinzugefügt werden|MUSS|
+| Rolle        | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------ | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer | Freunde meiner Freundesiste hinzufügen,  | ich sie in meiner Freundesliste sehen kann. | Auftauchen des hinzugefügten Benutzers in der Freundesliste. | MUSS      |
+| Als Benutzer | Freunde von meiner Freundesliste entfernen, | sie nicht mehr in der Freundesliste sind. | Freund ist nicht mehr in der Freundesliste | MUSS      |
+| Als Benutzer | einen Status haben und den von anderen Benutzern sehen, | ich sehen ob ein Benutzer erreichbar ist/ich zeigen kann ob ich erreichbar bin. | Sichtbarer Status.                       | MUSS      |
+| Als Benutzer | Statis in verschiedenen Farben sehen,    | ich sie besser unterscheiden kann.       | Verschiedenfarbige Statis.               | SOLL      |
+| Als Benutzer | die aktuelle Aktivität(beigetretener Chatraum, gestartetes Spiel) anderer Benutzer sehen, | andere Benutzer daran teilhaben können.  | Aktivitäten werden angezeigt.            | SOLL      |
+| Als Benutzer | einen Privatchat mit Freunden öffnen können, | ich mich mit ihnen unterhalten kann.     | Funktionierender Privatchat              | MUSS      |
+| Als Benutzer | Gruppierungen erstellen können,          | ich eine bessere Übersicht über meine Freunde habe. | Gruppierungen können erstellt werden.    | MUSS      |
+| Als Benutzer | Gruppierungen entfernen können,          | nicht verwendete Gruppierungen gelöscht werden können. | Gruppierungen können entfernt werden.    | MUSS      |
+| Als Benutzer | Freunde einer Gruppierung hinzufügen,    | ich neue Freunde gruppieren kann.        | Freunde können einer Gruppierung hinzugefügt werden | MUSS      |
 
 #### Use-Case-Diagramm
 <br>
@@ -214,48 +236,58 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 
 Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und auch wieder zu bearbeiten. Das bearbeiten geschieht durch drücken des Sclüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig.
 
-#### Mockups
-
-<img src="./images/Terminplaner Web.png" width="450"><img src="./images/Terminplaner hinzufügen Web.png" width="450">
-<img src="./images/Terminplaner Desktop.png" width="550"><img src="./images/Terminplaner hinzufügen Desktop.png" width="330">
-<img src="./images/Terminplaner Mobil.png" width="550"><img src="./images/Terminplaner hinzufügen Mobil.png" width="330">
+#### Mockups Webansicht
+<img src="./images/Terminplaner Web.png" id="img_cal_web" width="450"><img src="./images/Terminplaner hinzufügen Web.png" id="img_cal_add_web" width="450">
+#### Mockups Desktopansicht
+<img src="./images/Terminplaner Desktop.png" id="img_cal_desk" width="550"><img src="./images/Terminplaner hinzufügen Desktop.png" id="img_cal_add_desk" width="330">
+#### Mockups Mobilansicht
+<img src="./images/Terminplaner Mobil.png" id="img_cal_mobil" width="550"><img src="./images/Terminplaner hinzufügen Mobil.png" id="img_cal_add_mobil" width="330">
 
 #### User-Stories
 
-| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
-|-------|----------------------------|---------|-----------|-----------|
-| Als Benutzer | Termine anlegen, | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS |
-| Als Benutzer | meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. || MUSS |
-| Als Benutzer | detaillierte Beschreibung von Terminen an einem bestimmten Datum sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen.|| MUSS |
-| Als Gruppen-Admin| Termine mit Gruppen teilen, | so dass meine Gruppe sieht, wie unser Spielplan ist. || MUSS |
-| Als Gruppenmitglied | die Termine meiner Gruppe sehen, | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. || MUSS |
-| Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.|| SOLL |
+| Rolle               | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| ------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer        | Termine anlegen,                         | so dass ich sehe, wann ich verplant bin. | Die Termine werden im Kalendar farblich markiert. | MUSS      |
+| Als Benutzer        | meine Termine mit Freunden teilen und ebenso deren geteilten Termine mit mir sehen, | so dass ich mich mit meinen Freunden verabreden kann und sie sehen wann ich verplant bin. |                                          | MUSS      |
+| Als Benutzer        | detaillierte Beschreibung von Terminen an einem bestimmten Datum sehen, | so dass ich sehe, welche Termine an bestimmten Tagen anliegen. |                                          | MUSS      |
+| Als Gruppen-Admin   | Termine mit Gruppen teilen,              | so dass meine Gruppe sieht, wie unser Spielplan ist. |                                          | MUSS      |
+| Als Gruppenmitglied | die Termine meiner Gruppe sehen,         | so dass ich sehe, wann meine Gruppe Termine zum Spielen geplant hat. |                                          | MUSS      |
+| Als Gruppenmitglied | sehen, welche Gruppenmitglieder an einem Termin teilnehmen und welche nicht, | so dass ich sehe wer mitmachen wird.     |                                          | SOLL      |
 
 #### Use-Case
 
-<img src="./images/UseCase/usecaseTerminplaner.png" width="700">
+<img src="./images/UseCase/usecaseTerminplaner.png" width="800">
 
+#### Aktivitätsdiagramm 
+
+<img src="./images/Aktivitätsdiagramme/terminErstellen.png" width="800">
 
 ### Notizen
 Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
 Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer Farbe hinterlegt, welche man über eine Farbauswahl auswählen kann. Jede Farbe kann nur von einem Mitglied benutzt werden um Verwechslung zu vermeiden.
 
-<img src="./images/Notizen_Web.png" width="280"> <img src="./images/Notizen_Desktop.png" width="280"> <img src="./images/Notizen_Mobile.png" width="200">
+#### Mockups Notizen
+<img src="./images/Notizen_Web.png" id="img_notes_web" width="280"> <img src="./images/Notizen_Desktop.png" id="img_notes_desk" width="280"> <img src="./images/Notizen_Mobile.png" id="img_notes_mobil" width="200">
 
 #### User-Stories
-| Rolle | In meiner Rolle möchte ich | so dass | Akzeptanz | Priorität |
-|-------|----------------------------|---------|-----------|-----------|
-|Als Benutzer|Notizen anlegen|ich wichtige Informationen immer im Blick habe.||MUSS|
-|Als Benutzer|vorhandene Notizen bearbeiten|ich bei kleinen Änderungen keine neue Notiz anlegen muss.||MUSS|
-|Als Benutzer|Notizen einen Titel geben|ich meine Notizen auseinanderhalten kann.|Der Titel soll über der eigentlichen Notiz dauerhaft angezeigt werden.|MUSS|
-|Als Benutzer|unter meinen verschiedenen Notizen auswählen|ich aussuchen kann, welche ich einsehen will.|Die Notizen werden nur in Form ihrer Titel aufgelistet um daraus auswählen zu können.|MUSS|
-|Als Notizenersteller|meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen|andere meine Notizen sehen können.|Mitglieder werden neben der eigentlichen Notiz aufgeführt.|SOLL|
-|Als Notizenersteller|Mitgliedern die Bearbeitung der Notiz erlauben|auch andere Personen Informationen zu der Notiz beitragen können.|Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden.|SOLL|
-|Als Mitglied|die Farbe mit der mein Text hinterlegt ist auswählen|ich die Verfasser der Textabschnitte unterscheiden kann.|Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen.|KANN|
+| Rolle                | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| -------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer         | Notizen anlegen                          | ich wichtige Informationen immer im Blick habe. |                                          | MUSS      |
+| Als Benutzer         | vorhandene Notizen bearbeiten            | ich bei kleinen Änderungen keine neue Notiz anlegen muss. |                                          | MUSS      |
+| Als Benutzer         | Notizen einen Titel geben                | ich meine Notizen auseinanderhalten kann. | Der Titel soll über der eigentlichen Notiz dauerhaft angezeigt werden. | MUSS      |
+| Als Benutzer         | unter meinen verschiedenen Notizen auswählen | ich aussuchen kann, welche ich einsehen will. | Die Notizen werden nur in Form ihrer Titel aufgelistet um daraus auswählen zu können. | MUSS      |
+| Als Notizenersteller | meine Notizen mit anderen Nutzern oder ganzen Gruppen teilen | andere meine Notizen sehen können.       | Mitglieder werden neben der eigentlichen Notiz aufgeführt. | SOLL      |
+| Als Notizenersteller | Mitgliedern die Bearbeitung der Notiz erlauben | auch andere Personen Informationen zu der Notiz beitragen können. | Der von einem Nutzer verfasste Text soll mit einer Nutzerspezifischen Farbe hinterlegt werden. | SOLL      |
+| Als Mitglied         | die Farbe mit der mein Text hinterlegt ist auswählen | ich die Verfasser der Textabschnitte unterscheiden kann. | Jede Farbe soll nur einmal vorkommen um Verwechslung vorzubeugen. | KANN      |
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Use-Case-Notizen.png" width="1000">
+<img src="./images/UseCase/Use-Case-Notizen.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/Notizen-Aktivität.png" width="1000">
 <br>
 
 ### Frontend
@@ -318,9 +350,7 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 [Quelle](https://laravel.com/docs/5.5/migrations)
 
 #### Systemarchitekturdiagramm
-
-<img src="./images/Systemarchitekturdiagramm.png" width="600">
-
+<img src="./images/architektur.png" id="img_sysarch" width="600">
 
 ### Optionale Features
 * Forum
@@ -412,5 +442,27 @@ Eintrag und Erinnerung an eine Veranstaltung oder Ereignis, das öffentlich, in 
 
 #### Terminplaner
 Kalender, der Termine für sämtliche Veranstaltungen und Ereignisse enthält. Dazu zählen öffentliche, Gruppen- und persönliche bzw. private Termine.
+
+### Bilderverzeichnis
+- Anmeldung: [Web](#img_login_web), [Desktop](#img_login_desk), [Mobil](#img_login_mobil)
+- Bewertungsfunktion: [Web](#img_review_web), [Desktop](#img_review_desk), [Mobil](#img_review_mobil)
+- Chaträume
+  - Übersicht: [Web](#img_chat_web), [Desktop](#img_chat_desk), [Mobil](#img_chat_mobil)
+  - Öffentlich/Gruppe:[Web](#img_chat_private_web), [Desktop](#img_chat_private_desk), [Mobil](#img_chat_private_mobil)
+  - Privat: [Web](#img_chat_public_web), [Desktop](#img_chat_public_desk), [Mobil](#img_chat_public_mobil)
+- Freundesliste: [Web](#img_friends_web), [Desktop](#img_friends_desk), [Mobil](#img_friends_mobil)
+- Gruppen
+  - Profil: [Web](#img_group_prof_web), [Desktop](#img_group_prof_desk), [Mobil](#img_group_prof_mobil)
+  - Forum:  [Web](#img_group_forum_web), [Desktop](#img_group_forum_desk), [Mobil](#img_group_forum_mobil)
+  - Mitglieder:  [Web](#img_group_members_web), [Desktop](#img_group_members_desk), [Mobil](#img_group_members_mobil)
+  - Admin:  [Web](#img_group_admin_web), [Desktop](#img_group_admin_desk), [Mobil](#img_group_admin_mobil)
+- Navigationsleiste:  [Web/Desktop](#img_nav_webdesk), [Mobil](#img_nav_mobil)
+- Notizen: [Web](#img_notes_web), [Desktop](#img_notes_desk), [Mobil](#img_notes_mobil)
+- Registrierung: [Web](#img_reg_web), [Desktop](#img_reg_desk), [Mobil](#img_reg_mobil)
+- Spielebibliothek: [Web](#img_library_web), [Desktop](#img_library_desk)
+- [Systemarchitektur](#img_sysarch)
+- Terminplaner
+  - Übersicht: [Web](#img_cal_web), [Desktop](#img_cal_desk), [Mobil](#img_cal_mobil)
+  - Termin hinzufügen: [Web](#img_cal_add_web), [Desktop](#img_cal_add_desk), [Mobil](#img_cal_add_mobil)
 
 **Fehlende Einträge, sowie Rollenverteilung werden hinzugefügt, sobald es zur Entwicklung kommt.**
