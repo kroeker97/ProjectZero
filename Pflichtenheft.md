@@ -214,10 +214,13 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 
 #### Aktivitätsdiagramm
 <br>
-<img src="./images/Aktivitätsdiagramme/freundesliste/addDeleteGruppierung" width="500">
-<img src="./images/Aktivitätsdiagramme/freundesliste/addFriendAkt" width="500">
-<img src="./images/Aktivitätsdiagramme/freundesliste/addFriendToGroup" width="500">
-<img src="./images/Aktivitätsdiagramme/freundesliste/deleteFriendPrivateChatAkt" width="500">
+<img src="./images/Aktivitätsdiagramme/freundesliste/addDeleteGruppierung.png" width="500">
+
+<img src="./images/Aktivitätsdiagramme/freundesliste/addFriendAkt.png" width="500">
+
+<img src="./images/Aktivitätsdiagramme/freundesliste/addFriendToGroup.png" width="500">
+
+<img src="./images/Aktivitätsdiagramme/freundesliste/deleteFriendPrivateChatAkt.png" width="500">
 <br>
 
 ### Terminplaner
