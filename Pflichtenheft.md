@@ -183,6 +183,11 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <img src="./images/UseCase/Pflichtenheft_Chaträume_Use-Case-Diagramm.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm_Chaträume.png" width="1000">
+<br>
+
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
 
