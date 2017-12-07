@@ -334,6 +334,9 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Systemarchitekturdiagramm
 <img src="./images/architektur.png" id="img_sysarch" width="600">
 
+#### Routing
+[Routing Liste](Resources/RoutingList.pdf)
+
 ### Optionale Features
 * Forum
 * Shop
