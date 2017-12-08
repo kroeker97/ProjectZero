@@ -234,6 +234,13 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 <img src="./images/UseCase/usecase_freundesliste.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt1.png" width="1000">
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt2.png" width="1000">
+<br>
+
 ### Terminplaner
 
 #### Beschreibung
