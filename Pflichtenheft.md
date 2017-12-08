@@ -99,6 +99,11 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 <img src="./images/UseCase_Bewertungsfunktion.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramme
+<br>
+<img src="./images/Aktivitätsdiagramme/Activity_Diagramm_Bewertungsfunktion.png" width="1000">
+<br>
+
 ### Gruppen
 Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organisation von Freunden und Freundesfreunden. Um eine Gruppe zu erstellen braucht man nicht zwingend Freunde in der Kontaktliste; Da man die Option hat, die Gruppe auf "Öffentlich" zu stellen, sodass jeder Benutzer beitreten kann.
 Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von einem berechtigten Mitglied der Gruppe eingeladen werden.
