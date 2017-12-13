@@ -151,8 +151,30 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 <br>
 
 #### Aktivitätsdiagramme
-
 <img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
+
+### Gruppenrollen
+| Name        | Vergabe                            | Rechte                                   |
+| :---------- | :--------------------------------- | :--------------------------------------- |
+| Ersteller   | Beim Erstellen der Gruppe          | Alle                                     |
+| Admin       | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
+| Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
+| Mitglied    | Beim Beitritt in die Gruppe        | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
+
+#### User-Stories
+
+| Rolle                                   | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
+| --------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
+| Als Benutzer                            | Gruppen erstellen                        | ich Freunde zur Gruppe hinzufügen kann   | Erzeugung der Gruppe                     | MUSS      |
+| Als Benutzer                            | öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS      |
+| Als Benutzer                            | Chats der Gruppe beitreten               | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern      | MUSS      |
+| Als Gruppenadmin                        | die Sichtbarkeit der Gruppe ändern       | sie Öffentlich oder Privat ist           |                                          | SOLL      |
+| Als Gruppenadmin                        | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |                                          | SOLL      |
+| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen          | Diskussionen im Forum geordneter sind    | sichtbare Oberthemen im Forum            | SOLL      |
+| Als Gruppenmitglied                     | Unterthemen im Forum erstellen           | Diskussionen angeregt werden             | sichtbare Unterthemen im Forum           | SOLL      |
+| Als Gruppenmitglied                     | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | KANN      |
+| Als Gruppenmitglied                     | meine Kommentare and Unterthemen senden  | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt   | SOLL      |
+| Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
@@ -183,6 +205,11 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <img src="./images/UseCase/Pflichtenheft_Chaträume_Use-Case-Diagramm.png" width="1000">
 <br>
 
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm_Chaträume.png" width="1000">
+<br>
+
 ### Freundesliste
 Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
 
@@ -205,6 +232,13 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 #### Use-Case-Diagramm
 <br>
 <img src="./images/UseCase/usecase_freundesliste.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt1.png" width="1000">
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt2.png" width="1000">
 <br>
 
 ### Terminplaner
@@ -328,6 +362,12 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 
 #### Systemarchitekturdiagramm
 <img src="./images/architektur.png" id="img_sysarch" width="600">
+
+#### Klassenanalysediagramm
+<img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
+
+#### Routing
+[Routing Liste](Resources/RoutingList.pdf)
 
 ### Optionale Features
 * Forum
