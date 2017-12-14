@@ -1,4 +1,4 @@
-﻿﻿## Pflichtenheft
+## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
@@ -48,8 +48,8 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 #### Aktivitätsdiagramme Registrierung und Anmeldung
-<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
 <img src="./images/Aktivitätsdiagramme/anmeldung.png" width="400">
+<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -76,7 +76,7 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <br>
 
 #### Aktivitätsdiagramm Spiel anzeigen
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
+<img src="./images/Aktivitätsdiagramme/spielanschauen.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
@@ -96,7 +96,12 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/Bewertungsfunktion_Use-Case-Diagramm.png" width="1000">
+<img src="./images/UseCase/UseCase_Bewertungsfunktion.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramme
+<br>
+<img src="./images/Aktivitätsdiagramme/Activity_Diagramm_Bewertungsfunktion.png" width="1000">
 <br>
 
 ### Gruppen
@@ -152,29 +157,6 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 
 #### Aktivitätsdiagramme
 <img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
-
-### Gruppenrollen
-| Name        | Vergabe                            | Rechte                                   |
-| :---------- | :--------------------------------- | :--------------------------------------- |
-| Ersteller   | Beim Erstellen der Gruppe          | Alle                                     |
-| Admin       | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
-| Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
-| Mitglied    | Beim Beitritt in die Gruppe        | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
-
-#### User-Stories
-
-| Rolle                                   | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
-| --------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
-| Als Benutzer                            | Gruppen erstellen                        | ich Freunde zur Gruppe hinzufügen kann   | Erzeugung der Gruppe                     | MUSS      |
-| Als Benutzer                            | öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS      |
-| Als Benutzer                            | Chats der Gruppe beitreten               | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern      | MUSS      |
-| Als Gruppenadmin                        | die Sichtbarkeit der Gruppe ändern       | sie Öffentlich oder Privat ist           |                                          | SOLL      |
-| Als Gruppenadmin                        | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |                                          | SOLL      |
-| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen          | Diskussionen im Forum geordneter sind    | sichtbare Oberthemen im Forum            | SOLL      |
-| Als Gruppenmitglied                     | Unterthemen im Forum erstellen           | Diskussionen angeregt werden             | sichtbare Unterthemen im Forum           | SOLL      |
-| Als Gruppenmitglied                     | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | KANN      |
-| Als Gruppenmitglied                     | meine Kommentare and Unterthemen senden  | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt   | SOLL      |
-| Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
 
 ### Chaträume
 Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
@@ -366,8 +348,13 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Analyseklassendiagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
+### Aktivitätsdiagramm aller Use Cases
+
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
+
+
 #### Routing
-[Routing Liste](Resources/RoutingList.pdf)
+[Generated API Reference](https://pr0jectzer0.ml/docs/)
 
 ### Optionale Features
 * Forum
