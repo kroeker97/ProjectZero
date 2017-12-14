@@ -362,7 +362,7 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Systemarchitekturdiagramm
 <img src="./images/architektur.png" id="img_sysarch" width="600">
 
-#### Klassenanalysediagramm
+#### Analyseklassendiagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
 ### Aktivitätsdiagramm aller Use Cases
