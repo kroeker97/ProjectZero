@@ -48,8 +48,8 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 #### Aktivitätsdiagramme Registrierung und Anmeldung
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
+<img src="./images/Aktivitätsdiagramme/anmeldung.png" width="400">
+<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -76,7 +76,7 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <br>
 
 #### Aktivitätsdiagramm Spiel anzeigen
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
+<img src="./images/Aktivitätsdiagramme/spielanschauen.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
