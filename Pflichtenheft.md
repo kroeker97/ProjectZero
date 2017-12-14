@@ -365,6 +365,11 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Klassenanalysediagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
+### Aktivitätsdiagramm aller Use Cases
+
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
+
+
 #### Routing
 [Generated API Reference](https://pr0jectzer0.ml/docs/)
 
