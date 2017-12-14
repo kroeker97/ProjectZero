@@ -48,8 +48,8 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 #### Aktivitätsdiagramme Registrierung und Anmeldung
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
+<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
+<img src="./images/Aktivitätsdiagramme/anmeldung.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
