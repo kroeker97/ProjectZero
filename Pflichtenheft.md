@@ -15,20 +15,20 @@ Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Gruppen/Freunde (Community)
 * Registrierung und Anmeldung oder Abmeldung
 #### Mockups Navigationsleiste
-<img src="./images/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Navigation_Mobile.png" id="img_nav_mobil" width="400">
+<img src="./images/Mockups/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Mockups/Navigation_Mobile.png" id="img_nav_mobil" width="400">
 
 ### Registrierung
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung.
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
 Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.
 #### Mockups Registrierung
-<img src="./images/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Registration_Mobile.png" id="img_reg_mobil" width="130">
+<img src="./images/Mockups/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Mockups/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Mockups/Registration_Mobile.png" id="img_reg_mobil" width="130">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 #### Mockups  Anmeldung
-<img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
+<img src="./images/Mockups/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Mockups/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Mockups/Login_Mobile.png" id="img_login_mobil" width="110">
 
 #### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
@@ -57,7 +57,7 @@ Diese können dann aus der Spielebibliothek gestartet werden.
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung,
 eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.
 #### Mockups Spielebibliothek
-<img src="./images/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Library_Desktop.png" id="img_library_desk" width="400">
+<img src="./images/Mockups/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Mockups/Library_Desktop.png" id="img_library_desk" width="400">
 
 #### User-Stories
 
@@ -82,7 +82,7 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
 
 #### Mockups Bewertungsfunktion
-<img src="./images/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Review_Mobile.png" id="img_review_mobil" width="230">
+<img src="./images/Mockups/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Mockups/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Mockups/Review_Mobile.png" id="img_review_mobil" width="230">
 
 #### User-Stories
 
