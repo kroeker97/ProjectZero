@@ -1,4 +1,4 @@
-## Pflichtenheft
+﻿﻿## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
@@ -48,8 +48,8 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 #### Aktivitätsdiagramme Registrierung und Anmeldung
-<img src="./images/Aktivitätsdiagramme/anmeldung.png" width="400">
-<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -76,7 +76,7 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <br>
 
 #### Aktivitätsdiagramm Spiel anzeigen
-<img src="./images/Aktivitätsdiagramme/spielanschauen.png" width="400">
+<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
@@ -96,12 +96,7 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/UseCase/UseCase_Bewertungsfunktion.png" width="1000">
-<br>
-
-#### Aktivitätsdiagramme
-<br>
-<img src="./images/Aktivitätsdiagramme/Activity_Diagramm_Bewertungsfunktion.png" width="1000">
+<img src="./images/UseCase_Bewertungsfunktion.png" width="1000">
 <br>
 
 ### Gruppen
@@ -155,9 +150,8 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 <img src="./images/usecase/Gruppen_Usecase.png" width="800">
 <br>
 
-<img src="./images/Groups_Members_AdminView_Desktop.png" width="280">
-<img src="./images/Groups_Members_AdminView_Web.png" width="280">
-<img src="./images/Groups_Members_AdminView_Mobile.png" width="280">
+#### Aktivitätsdiagramme
+<img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
 
 ### Gruppenrollen
 | Name        | Vergabe                            | Rechte                                   |
@@ -238,6 +232,13 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 #### Use-Case-Diagramm
 <br>
 <img src="./images/UseCase/usecase_freundesliste.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramm
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt1.png" width="1000">
+<br>
+<img src="./images/Aktivitätsdiagramme/freundesliste/FreundeslisteAkt2.png" width="1000">
 <br>
 
 ### Terminplaner
@@ -365,13 +366,8 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Klassenanalysediagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
-### Aktivitätsdiagramm aller Use Cases
-
-<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
-
-
 #### Routing
-[Generated API Reference](https://pr0jectzer0.ml/docs/)
+[Routing Liste](Resources/RoutingList.pdf)
 
 ### Optionale Features
 * Forum
