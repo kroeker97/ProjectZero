@@ -348,13 +348,18 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Analyseklassendiagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
+#### Routing
+[Generated API Reference](https://pr0jectzer0.ml/docs/)
+
 ### Aktivitätsdiagramm aller Use Cases
 
 <img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
-
-
-#### Routing
-[Generated API Reference](https://pr0jectzer0.ml/docs/)
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Chatraumaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Freundeslisteaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Gruppenaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Notizaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Spielebibliothekaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Terminplaneraktivität.png" width="600">
 
 ### Optionale Features
 * Forum
